@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.env
+
+# PyCharm
+.idea/
+*.iml
+
+# Переменные окружения
+.env
+*.localx
