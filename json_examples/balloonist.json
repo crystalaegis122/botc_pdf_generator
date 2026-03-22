@@ -1,0 +1,38 @@
+{
+  "id": "ru_RU_balloonist",
+  "name": "Аэронавт",
+  "team": "townsfolk",
+  "firstNight": 45.0,
+  "firstNightReminder": [
+    { "text": "Поставьте рядом с жетоном роли любого игрока пометку " },
+    { "text": "«Известен»", "color": "magenta" },
+    { "text": ". Пробудите " },
+    { "text": "Аэронавта", "color": "blue" },
+    { "text": ". Укажите на игрока с пометкой " },
+    { "text": "«Известен»", "color": "magenta" },
+    { "text": ". Усыпите " },
+    { "text": "Аэронавта", "color": "blue" },
+    { "text": "." }
+  ],
+  "otherNight": 62.0,
+  "otherNightReminder": [
+    { "text": "Поставьте рядом с жетоном роли обладающего типом роли, отличным от предыдущего, пометку " },
+    { "text": "«Известен»", "color": "magenta" },
+    { "text": ". Пробудите " },
+    { "text": "Аэронавта", "color": "blue" },
+    { "text": ". Укажите на игрока с пометкой " },
+    { "text": "«Известен»", "color": "magenta" },
+    { "text": ". Усыпите " },
+    { "text": "Аэронавта", "color": "blue" },
+    { "text": "." }
+  ],
+  "reminders": ["Известен"],
+  "setup": true,
+  "ability": [
+    { "text": "Каждую ночь:", "bold": true },
+    { "text": " вы узнаете игрока, обладающего типом роли, отличным от предыдущего. [+0 или +1 " },
+    { "text": "Изгой", "color": "blue" },
+    { "text": "]" }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/3/35/Balloonist.png"
+}

@@ -1,0 +1,19 @@
+{
+    "id": "ru_RU_saint",
+    "name": "Святой",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text":  "Если вы умираете в результате " },
+      { "text":  "казни", "bold": true },
+      { "text":  ", ваша команда " },
+      { "text":  "проигрывает", "bold": true },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/bc/Saint.png"
+}

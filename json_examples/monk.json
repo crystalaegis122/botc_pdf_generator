@@ -1,0 +1,30 @@
+{
+    "id": "ru_RU_monk",
+    "name": "Монах",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 12.0,
+    "otherNightReminder": [
+      { "text": "Уберите пометку «Защищен», если таковая присутствует в игре. Пробудите ", "bold": false },
+      { "text": "Монаха", "color": "blue" },
+      { "text": ". ", "bold": false },
+      { "text": "Монах", "color": "blue" },
+      { "text": " указывает на любого игрока, кроме себя. Усыпите ", "bold": false },
+      { "text": "Монаха", "color": "blue" },
+      { "text": ". Поставьте пометку «Защищен» рядом с жетоном роли выбранного игрока. Если ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " атакует игрока с пометкой «Защищен», этот игрок остается в ", "bold": false },
+      { "text": "живых", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Защищен"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите игрока (кроме себя). Этот игрок защищен от ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": " текущей ночью.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/44/Monk.png"
+}

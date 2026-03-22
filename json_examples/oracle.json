@@ -1,0 +1,30 @@
+{
+    "id": "ru_RU_oracle",
+    "name": "Пророк",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 59.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Пророка", "color": "blue" },
+      { "text": ". Покажите жестом число (0, 1, 2 и т.д.), равное количеству ", "bold": false },
+      { "text": "мертвых", "bold": true },
+      { "text": " ", "bold": false },
+      { "text": "злых", "color": "red" },
+      { "text": " игроков. Усыпите ", "bold": false },
+      { "text": "Пророка", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": вы узнаете число ", "bold": false },
+      { "text": "злых", "color": "red" },
+      { "text": " игроков среди ", "bold": false },
+      { "text": "мертвых", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/1/17/Oracle.png"
+}

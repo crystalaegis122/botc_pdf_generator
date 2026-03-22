@@ -1,0 +1,34 @@
+{
+    "id": "ru_RU_poisoner",
+    "name": "Отравитель",
+    "team": "minion",
+    "firstNight": 17.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Выбранный игрок становится ", "bold": false },
+      { "text": "отравленным", "bold": true },
+      { "text": ". Поставьте пометку «Отравлен» рядом с жетоном роли выбранного игрока. Усыпите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". На закате уберите пометку «Отравлен».", "bold": false }
+    ],
+    "otherNight": 7.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Выбранный игрок становится ", "bold": false },
+      { "text": "отравленным", "bold": true },
+      { "text": ". Поставьте пометку «Отравлен» рядом с жетоном роли выбранного игрока. Усыпите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". На закате уберите пометку «Отравлен».", "bold": false }
+    ],
+    "reminders": ["Отравлен"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите игрока. Этот игрок ", "bold": false },
+      { "text": "отравлен", "bold": true },
+      { "text": " текущей ночью и следующим днем.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/74/Poisoner.png"
+}

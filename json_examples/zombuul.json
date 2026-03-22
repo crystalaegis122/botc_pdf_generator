@@ -1,0 +1,28 @@
+{
+    "id": "ru_RU_zombuul",
+    "name": "Зомбул",
+    "team": "demon",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 25.0,
+    "otherNightReminder": [
+      { "text": "Если у ", "bold": false },
+      { "text": "Зомбула", "color": "red" },
+      { "text": " нет пометки «Умер днем», пробудите ", "bold": false },
+      { "text": "Зомбула", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Зомбула", "color": "red" },
+      { "text": ". Выбранный игрок умирает, поставьте его жетону роли пометку «Умирает».", "bold": false }
+    ],
+    "reminders": ["Умирает", "Умер днем"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": если прошедшим днем никто не умер, выберите игрока. Он умирает. Первый раз, когда вы умираете, вы остаетесь в ", "bold": false },
+      { "text": "живых", "bold": true },
+      { "text": ", но определяетесь ", "bold": false },
+      { "text": "мертвым", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/7b/Zombuul.png"
+}

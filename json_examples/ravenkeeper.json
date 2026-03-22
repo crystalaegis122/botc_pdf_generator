@@ -1,0 +1,23 @@
+{
+    "id": "ru_RU_ravenkeeper",
+    "name": "Смотритель воронов",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 52.0,
+    "otherNightReminder": [
+      { "text": "Если ", "bold": false },
+      { "text": "Смотритель Воронов", "color": "blue" },
+      { "text": " ", "bold": false },
+      { "text": "умер", "bold": true },
+      { "text": " сегодня ночью, пробудите его. Он указывает на любого игрока. Покажите ему жетон роли выбранного игрока. Усыпите ", "bold": false },
+      { "text": "Смотрителя Воронов", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Если вы умираете ночью, вы просыпаетесь, чтобы выбрать игрока. Вы узнаете его роль.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/3/37/Ravenkeeper.png"
+}

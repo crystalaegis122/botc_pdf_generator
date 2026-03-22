@@ -1,0 +1,48 @@
+{
+  "id": "ru_RU_pukka",
+  "name": "Пукка",
+  "team": "demon",
+  "firstNight": 28.0,
+  "firstNightReminder": [
+    { "text": "Пробудите " },
+    { "text": "Пукку", "color": "red" },
+    { "text": ". Он указывает на любого игрока. Усыпите " },
+    { "text": "Пукку", "color": "red" },
+    { "text": ". Выбранный игрок " },
+    { "text": "отравлен", "bold": true },
+    { "text": ", поставьте рядом с его жетону роли пометку " },
+    { "text": "«Отравлен»", "color": "magenta" },
+    { "text": "." }
+  ],
+  "otherNight": 26.0,
+  "otherNightReminder": [
+    { "text": "Пробудите " },
+    { "text": "Пукку", "color": "red" },
+    { "text": ". Он указывает на любого игрока. Усыпите " },
+    { "text": "Пукку", "color": "red" },
+    { "text": ". Выбранный игрок " },
+    { "text": "отравлен", "bold": true },
+    { "text": ", поставьте его жетону роли пометку " },
+    { "text": "«Отравлен»", "color": "magenta" },
+    { "text": ". Другой игрок с пометкой " },
+    { "text": "«Отравлен»", "color": "magenta" },
+    { "text": " умирает, поставьте его жетону роли пометку " },
+    { "text": "«Умирает»", "color": "magenta" },
+    { "text": ", затем уберите его пометку " },
+    { "text": "«Отравлен»", "color": "magenta" },
+    { "text": "." }
+  ],
+  "reminders": ["Умирает", "Отравлен"],
+  "setup": false,
+  "ability": [
+    { "text": "Каждую ночь:", "bold": true },
+    { "text": " выберите игрока. Он " },
+    { "text": "отравлен", "bold": true },
+    { "text": ". Предыдущий " },
+    { "text": "отравленный", "bold": true },
+    { "text": " игрок умирает, а затем становится " },
+    { "text": "здоровым", "bold": true },
+    { "text": "." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/4/45/Pukka.png"
+}

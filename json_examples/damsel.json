@@ -1,0 +1,36 @@
+{
+    "id": "ru_RU_damsel",
+    "name": "Дамочка",
+    "team": "outsider",
+    "firstNight": 31.0,
+    "firstNightReminder": [
+      { "text": "Пробудите каждого " },
+      { "text": "Приспешника", "color": "red" },
+      { "text": ". Покажите жетон " },
+      { "text": "Дамочки", "color": "blue" },
+      { "text": ". Усыпите каждого " },
+      { "text": "Приспешника", "color": "red" },
+      { "text": "." }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Нет способности"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Все " },
+      { "text":  "Приспешники", "color":  "red" },
+      { "text":  " знают, что " },
+      { "text":  "Дамочка", "color":  "blue" },
+      { "text":  " присутствует в игре. Если один из " },
+      { "text":  "Приспешников", "color":  "red" },
+      { "text":  " публично", "bold": true },
+      { "text":  " угадывает (один раз за игру), что вы являетесь " },
+      { "text":  "Дамочкой", "color":  "blue" },
+      { "text":  ", ваша команда " },
+      { "text":  "проигрывает", "bold": true },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/b6/Damsel.png"
+}

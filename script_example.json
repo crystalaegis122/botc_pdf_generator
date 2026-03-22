@@ -1,0 +1,701 @@
+[
+  {
+    "id": "ru_RU_washerwoman",
+    "name": "Прачка",
+    "team": "townsfolk",
+    "firstNight": 33.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Прачку", "color": "blue" },
+      { "text": " и укажите на игроков с пометками «Горожанин» и «Ложный след». Покажите ", "bold": false },
+      { "text": "Прачке", "color": "blue" },
+      { "text": " жетон роли с пометкой «Горожанин». Усыпите ", "bold": false },
+      { "text": "Прачку", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Горожанин", "Ложный след"],
+    "setup": false,
+    "ability": [
+      { "text": "Вступление", "bold": true },
+      { "text": ": вы узнаете, что один из двух игроков является определенным ", "bold": false },
+      { "text": "Горожанином", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/45/Washerwoman.png"
+  },
+  {
+    "id": "ru_RU_librarian",
+    "name": "Библиотекарь",
+    "team": "townsfolk",
+    "firstNight": 34.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Библиотекаря", "color": "blue" },
+      { "text": ". Если в игре нет ", "bold": false },
+      { "text": "Изгоев", "color": "blue" },
+      { "text": ", жестом покажите ему число 0. Иначе укажите на игроков с пометками «", "bold": false },
+      { "text": "Изгой", "color": "blue" },
+      { "text": "» и «Ложный след». Покажите жетон роли с пометкой «", "bold": false },
+      { "text": "Изгой", "color": "blue" },
+      { "text": "» ", "bold": false },
+      { "text": "Библиотекарю", "color": "blue" },
+      { "text": ". Усыпите ", "bold": false },
+      { "text": "Библиотекаря", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Изгой", "Ложный след"],
+    "setup": false,
+    "ability": [
+      { "text": "Вступление", "bold": true },
+      { "text": ": вы узнаете, что один из двух игроков является определенным ", "bold": false },
+      { "text": "Изгоем", "color": "blue" },
+      { "text": " или что в игре отсутствуют ", "bold": false },
+      { "text": "Изгои", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/5/55/Librarian.png"
+  },
+  {
+    "id": "ru_RU_investigator",
+    "name": "Сыщик",
+    "team": "townsfolk",
+    "firstNight": 35.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Сыщика", "color": "blue" },
+      { "text": " и укажите на игроков с пометками «", "bold": false },
+      { "text": "Приспешник", "color": "red" },
+      { "text": "» и «Ложный след». Покажите жетон роли с пометкой «", "bold": false },
+      { "text": "Приспешник", "color": "red" },
+      { "text": "» ", "bold": false },
+      { "text": "Сыщику", "color": "blue" },
+      { "text": ". Усыпите ", "bold": false },
+      { "text": "Сыщика", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Ложный след", "Приспешник"],
+    "setup": false,
+    "ability": [
+      { "text": "Вступление", "bold": true },
+      { "text": ": вы узнаете, что один из двух игроков является определенным ", "bold": false },
+      { "text": "Приспешником", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/c/cb/Investigator.png"
+  },
+  {
+    "id": "ru_RU_chef",
+    "name": "Повар",
+    "team": "townsfolk",
+    "firstNight": 36.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Повара", "color": "blue" },
+      { "text": ". Покажите жестом число (0, 1, 2 и т.д.) пар сидящих рядом ", "bold": false },
+      { "text": "злых", "color": "red" },
+      { "text": " игроков в игре. Усыпите ", "bold": false },
+      { "text": "Повара", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Вступление", "bold": true },
+      { "text": ": вы узнаете, сколько пар сидящих рядом ", "bold": false },
+      { "text": "злых", "color": "red" },
+      { "text": " игроков присутствует в игре.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/e/e5/Chef.png"
+  },
+  {
+    "id": "ru_RU_empath",
+    "name": "Эмпат",
+    "team": "townsfolk",
+    "firstNight": 37.0,
+    "firstNightReminder": [
+      { "text":  "Пробудите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  ". Покажите жестом число (0, 1 или 2) " },
+      { "text":  "злых", "color":  "red" },
+      { "text":  " игроков среди его " },
+      { "text":  "живых", "bold": true },
+      { "text":  " соседей. Усыпите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  "." }
+    ],
+    "otherNight": 53.0,
+    "otherNightReminder": [
+      { "text":  "Пробудите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  ". Покажите жестом число (0, 1 или 2) " },
+      { "text":  "злых", "color":  "red" },
+      { "text":  " игроков среди его " },
+      { "text":  "живых", "bold": true },
+      { "text":  " соседей. Усыпите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  "." }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text":  "Каждую ночь:", "bold": true },
+      { "text":  " вы узнаете число " },
+      { "text":  "злых", "color":  "red" },
+      { "text":  " игроков среди двух ваших " },
+      { "text":  "живых", "bold": true },
+      { "text":  " соседей." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/4e/Empath.png"
+  },
+  {
+    "id": "ru_RU_fortuneteller",
+    "name": "Гадалка",
+    "team": "townsfolk",
+    "firstNight": 38.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ". ", "bold": false },
+      { "text": "Гадалка", "color": "blue" },
+      { "text": " указывает на любых двух игроков. Если выбранный игрок это ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " или имеет пометку «Ложный след», утвердительно кивните «да». В противном случае покачайте головой «нет». Усыпите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 54.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ". ", "bold": false },
+      { "text": "Гадалка", "color": "blue" },
+      { "text": " указывает на любых двух игроков. Если выбранный игрок это ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " или имеет пометку «Ложный след», утвердительно кивните «да». В противном случае покачайте головой «нет». Усыпите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Ложный след"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите двух игроков. Вы узнаете, есть ли среди них ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": ". Один из ", "bold": false },
+      { "text": "добрых", "color": "blue" },
+      { "text": " игроков определяется вами как ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/6/67/Fortuneteller.png"
+  },
+  {
+    "id": "ru_RU_undertaker",
+    "name": "Гробовщик",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 55.0,
+    "otherNightReminder": [
+      { "text":  "Если какой-либо игрок сегодня умер от " },
+      { "text":  "казни", "bold": true },
+      { "text":  ", пробудите " },
+      { "text":  "Гробовщика", "color": "blue" },
+      { "text":  ". Покажите ему жетон роли с пометкой " },
+      { "text":  "«Умер от казни»", "color": "magenta" },
+      { "text":  ". Усыпите " },
+      { "text":  "Гробовщика", "color": "blue" },
+      { "text":  ". Уберите пометку " },
+      { "text":  "«Умер от казни»", "color": "magenta" },
+      { "text":  "." }
+    ],
+    "reminders": [
+      "Казнен"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Каждую ночь*:", "bold": true },
+      { "text":  " вы узнаете роль игрока, умершего в результате " },
+      { "text":  "казни", "bold": true },
+      { "text":  " прошедшим днем." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/c/c7/Undertaker.png"
+  },
+  {
+    "id": "ru_RU_monk",
+    "name": "Монах",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 12.0,
+    "otherNightReminder": [
+      { "text": "Уберите пометку «Защищен», если таковая присутствует в игре. Пробудите ", "bold": false },
+      { "text": "Монаха", "color": "blue" },
+      { "text": ". ", "bold": false },
+      { "text": "Монах", "color": "blue" },
+      { "text": " указывает на любого игрока, кроме себя. Усыпите ", "bold": false },
+      { "text": "Монаха", "color": "blue" },
+      { "text": ". Поставьте пометку «Защищен» рядом с жетоном роли выбранного игрока. Если ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " атакует игрока с пометкой «Защищен», этот игрок остается в ", "bold": false },
+      { "text": "живых", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Защищен"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите игрока (кроме себя). Этот игрок защищен от ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": " текущей ночью.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/44/Monk.png"
+  },
+  {
+    "id": "ru_RU_ravenkeeper",
+    "name": "Смотритель воронов",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 52.0,
+    "otherNightReminder": [
+      { "text": "Если ", "bold": false },
+      { "text": "Смотритель Воронов", "color": "blue" },
+      { "text": " ", "bold": false },
+      { "text": "умер", "bold": true },
+      { "text": " сегодня ночью, пробудите его. Он указывает на любого игрока. Покажите ему жетон роли выбранного игрока. Усыпите ", "bold": false },
+      { "text": "Смотрителя Воронов", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Если вы умираете ночью, вы просыпаетесь, чтобы выбрать игрока. Вы узнаете его роль.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/3/37/Ravenkeeper.png"
+  },
+  {
+  "id": "ru_RU_virgin",
+  "name": "Девственница",
+  "team": "townsfolk",
+  "firstNight": 0.0,
+  "firstNightReminder": "",
+  "otherNight": 0.0,
+  "otherNightReminder": "",
+  "reminders": ["Нет способности"],
+  "setup": false,
+  "ability": [
+    { "text": "Первый раз, когда вас номинируют, если номинирующий – " },
+    { "text": "Горожанин", "color": "blue" },
+    { "text": ", его немедленно " },
+    { "text": "казнят", "bold": true },
+    { "text": "." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/4/43/Virgin.png"
+  },
+  {
+    "id": "ru_RU_slayer",
+    "name": "Истребитель",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Нет способности"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Один раз за игру, днем: публично", "bold": true },
+      { "text":  " выберите игрока. Если этот игрок – " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  ", он умирает." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/6/6e/Slayer.png"
+  },
+  {
+    "id": "ru_RU_soldier",
+    "name": "Солдат",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Вы защищены от ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/7b/Soldier.png"
+  },
+  {
+    "id": "ru_RU_mayor",
+    "name": "Мэр",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Если в " },
+      { "text": "живых", "bold": true },
+      { "text": " осталось 3 игрока и не происходит " },
+      { "text": "казни", "bold": true },
+      { "text": ", ваша команда " },
+      { "text": "побеждает", "bold": true },
+      { "text": ". Если вы умираете ночью, вместо вас " },
+      { "text": "может", "bold": true },
+      { "text": " умереть другой игрок." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/2/20/Mayor.png"
+  },
+  {
+    "id": "ru_RU_butler",
+    "name": "Дворецкий",
+    "team": "outsider",
+    "firstNight": 39.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Поставьте пометку «Господин» рядом с жетоном роли этого игрока. Усыпите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 67.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Поставьте пометку «Господин» рядом с жетоном роли этого игрока. Усыпите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Господин"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите игрока (кроме себя). На следующий день вы можете голосовать, только если этот игрок тоже голосует.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/8/82/Butler.png"
+  },
+  {
+    "id": "ru_RU_drunk",
+    "name": "Пьяница",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Пьяница"
+    ],
+    "setup": true,
+    "ability": [
+      { "text":  "Вы не знаете, что вы – " },
+      { "text":  "Пьяница", "color":  "blue" },
+      { "text":  ". Вы считаете себя определенным " },
+      { "text":  "Горожанином", "color":  "blue" },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/1/14/Drunk.png"
+  },
+  {
+    "id": "ru_RU_recluse",
+    "name": "Затворник",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text":  "Вы " },
+      { "text":  "можете", "bold": true },
+      { "text":  " определяться " },
+      { "text":  "злым", "color":  "red" },
+      { "text":  " и как " },
+      { "text":  "Приспешник", "color":  "red" },
+      { "text":  " или " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  ", даже будучи " },
+      { "text":  "мертвым", "bold": true },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/0/02/Recluse.png"
+  },
+  {
+    "id": "ru_RU_saint",
+    "name": "Святой",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text":  "Если вы умираете в результате " },
+      { "text":  "казни", "bold": true },
+      { "text":  ", ваша команда " },
+      { "text":  "проигрывает", "bold": true },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/bc/Saint.png"
+  },
+  {
+    "id": "ru_RU_poisoner",
+    "name": "Отравитель",
+    "team": "minion",
+    "firstNight": 17.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Выбранный игрок становится ", "bold": false },
+      { "text": "отравленным", "bold": true },
+      { "text": ". Поставьте пометку «Отравлен» рядом с жетоном роли выбранного игрока. Усыпите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". На закате уберите пометку «Отравлен».", "bold": false }
+    ],
+    "otherNight": 7.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Выбранный игрок становится ", "bold": false },
+      { "text": "отравленным", "bold": true },
+      { "text": ". Поставьте пометку «Отравлен» рядом с жетоном роли выбранного игрока. Усыпите ", "bold": false },
+      { "text": "Отравителя", "color": "red" },
+      { "text": ". На закате уберите пометку «Отравлен».", "bold": false }
+    ],
+    "reminders": ["Отравлен"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите игрока. Этот игрок ", "bold": false },
+      { "text": "отравлен", "bold": true },
+      { "text": " текущей ночью и следующим днем.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/74/Poisoner.png"
+  },
+  {
+    "id": "ru_RU_spy",
+    "name": "Шпион",
+    "team": "minion",
+    "firstNight": 49.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 68.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": загляните в Гримуар. Вы можете определяться ", "bold": false },
+      { "text": "добрым", "color": "blue" },
+      { "text": " и как ", "bold": false },
+      { "text": "Горожанин", "color": "blue" },
+      { "text": " или ", "bold": false },
+      { "text": "Изгой", "color": "blue" },
+      { "text": ", даже будучи ", "bold": false },
+      { "text": "мертвым", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/3/36/Spy.png"
+  },
+  {
+    "id": "ru_RU_scarletwoman",
+    "name": "Блудница",
+    "team": "minion",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 19.0,
+    "otherNightReminder": [
+      { "text":  "Если " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  " умирает и непосредственно перед смертью " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  " было пять или более " },
+      { "text":  "живых", "bold":  true },
+      { "text":  " игроков (не считая " },
+      { "text":  "Странников", "color":  "magenta" },
+      { "text":  "), замените жетон " },
+      { "text":  "Блудницы", "color":  "red" },
+      { "text":  " на жетон " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  ". Пробудите нового " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  ", покажите ему карточку " },
+      { "text":  "«Вы теперь»", "color":  "magenta" },
+      { "text":  ", а затем покажите ему жетон его новой роли." }
+    ],
+    "reminders": [
+      "Блудница"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Если живы хотя бы 5 игроков (" },
+      { "text":  "Странники", "color":  "magenta" },
+      { "text":  " не считаются) и " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  " умирает, вы становитесь " },
+      { "text":  "Демоном", "color":  "red" },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/a/ac/Scarletwoman.png"
+  },
+  {
+    "id": "ru_RU_baron",
+    "name": "Барон",
+    "team": "minion",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": [
+      { "text":  "В игре присутствует большее число " },
+      { "text":  "Изгоев", "color":  "blue" },
+      { "text":  ". [+2 " },
+      { "text":  "Изгоя", "color":  "blue" },
+      { "text":  "]" }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/40/Baron.png"
+  },
+  {
+    "id": "ru_RU_imp",
+    "name": "Черт",
+    "team": "demon",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 24.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Выбранный игрок умирает, поставьте пометку «Умирает» рядом с жетоном роли выбранного игрока и наложите на него саван. Если ", "bold": false },
+      { "text": "Черт", "color": "red" },
+      { "text": " убил себя ночью, выберите ", "bold": false },
+      { "text": "живого", "bold": true },
+      { "text": " ", "bold": false },
+      { "text": "Приспешника", "color": "red" },
+      { "text": " и замените его жетон роли на жетон ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Пробудите нового ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ", покажите ему карточку «Вы теперь», затем покажите ему жетон ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Усыпите нового ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Умирает"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*:", "bold": true },
+      { "text": " выберите игрока. Он умирает. Если вы убиваете себя таким образом, один из ", "bold": false },
+      { "text": "Приспешников", "color": "red" },
+      { "text": " становится ", "bold": false },
+      { "text": "Чертом", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/b3/Imp.png"
+  },
+  {
+    "id": "pope",
+    "name": "Понтифик",
+    "team": "loric",
+    "firstNight": null,
+    "firstNightReminder": "",
+    "otherNight": null,
+    "otherNightReminder": "",
+    "reminders": [
+      ""
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "В игре есть повторяющиеся " },
+      { "text":  "добрые", "color":  "blue" },
+      { "text":  "роли. Они также могут быть блефом."}
+    ],
+    "image": "https://raw.githubusercontent.com/tomozbot/botc-icons/refs/heads/main/PNG/pope.png"
+  },
+  {
+    "id": "ru_RU_sentinel",
+    "name": "Привратник",
+    "team": "fabled",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "otherNight": null,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": [
+      { "text": "В игре" },
+      { "text": "может", "bold": true },
+      { "text": " присутствовать на одного " },
+      { "text": "Изгоя", "color": "blue" },
+      { "text": " больше или меньше." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/9/91/Sentinel.png"
+  },
+  {
+    "id": "ru_RU_harlot",
+    "name": "Распутница",
+    "team": "traveller",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 1.0,
+    "otherNightReminder": [
+      { "text": "Пробудите "},
+      { "text": "Распутницу", "color": "magenta" },
+      { "text": ". Она указывает на любого игрока. Усыпите "},
+      { "text": "Распутницу", "color": "magenta" },
+      { "text": ". Пробудите выбранного игрока, покажите ему карточку "},
+      { "text": "«Вы выбраны способностью этой роли»", "color": "magenta" },
+      { "text": ", затем жетон "},
+      { "text": "Распутницы", "color": "magenta" },
+      { "text": ". Игрок либо кивает головой «да», либо качает головой «нет». Усыпите этого игрока. Если он кивнул «да», пробудите "},
+      { "text": "Распутницу", "color": "magenta" },
+      { "text": " и покажите ей жетон роли выбранного игрока. Усыпите "},
+      { "text": "Распутницу", "color": "magenta" },
+      { "text": ". Вы можете решить, что оба игрока умерли, в таком случае поставьте их жетонам ролей пометки "},
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text": "."}
+    ],
+    "reminders": ["Мертв"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*:", "bold": true },
+      { "text": " выберите " },
+      { "text": "живого", "bold": true },
+      { "text": " игрока. Если этот игрок соглашается, вы узнаете его роль, но вы оба " },
+      { "text": "можете", "bold": true },
+      { "text": "умереть." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/8/89/Harlot.png"
+  }
+]

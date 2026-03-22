@@ -1,0 +1,26 @@
+{
+    "id": "ru_RU_nodashii",
+    "name": "Но Даши",
+    "team": "demon",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 30.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Но Даши", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Этот игрок умирает, поставьте рядом с его жетоном роли пометку «Умирает». Усыпите ", "bold": false },
+      { "text": "Но Даши", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Умирает", "Отравлен"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите игрока. Он умирает. Два ваших соседних ", "bold": false },
+      { "text": "Горожанина", "color": "blue" },
+      { "text": " ", "bold": false },
+      { "text": "отравлены", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/1/16/Nodashii.png"
+}

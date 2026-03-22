@@ -1,0 +1,24 @@
+{
+    "id": "ru_RU_juggler",
+    "name": "Жонглер",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 61.0,
+    "otherNightReminder": [
+      { "text": "Если предыдущим днем ", "bold": false },
+      { "text": "Жонглер", "color": "blue" },
+      { "text": " использовал споссобность, пробудите ", "bold": false },
+      { "text": "Жонглера", "color": "blue" },
+      { "text": ". Покажите жестом число (0-5), равное количеству пометок «Верно». Усыпите ", "bold": false },
+      { "text": "Жонглера", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Верно"],
+    "setup": false,
+    "ability": [
+      { "text": "В ваш первый день", "bold": true },
+      { "text": ": публично сделайте до 5 догадок «игрок-роль». Ночью вы узнаете число верных догадок.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/be/Juggler.png"
+}

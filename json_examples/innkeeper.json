@@ -1,0 +1,26 @@
+{
+    "id": "ru_RU_innkeeper",
+    "name": "Трактирщик",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 9.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Трактирщика", "color": "blue" },
+      { "text": ". Он указывает на любых двух игроков. Усыпите ", "bold": false },
+      { "text": "Трактирщика", "color": "blue" },
+      { "text": ". Поставьте пометки «Защищен» рядом с жетонами ролей выбранных игроков. Один из выбранных игроков становится ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": ", поставьте его жетону роли пометку «Пьян». На рассвете уберите пометки «Защищен». На закате уберите пометку «Пьян».", "bold": false }
+    ],
+    "reminders": ["Защищен", "Пьян"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите двух игроков. Они не могут умереть текущей ночью, но один из них становится ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": " до заката.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/3/32/Innkeeper.png"
+}

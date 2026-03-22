@@ -1,0 +1,19 @@
+{
+    "id": "ru_RU_sentinel",
+    "name": "Привратник",
+    "team": "fabled",
+    "firstNight": null,
+    "firstNightReminder": null,
+    "otherNight": null,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": [
+      { "text":  "В игре " },
+      { "text":  "может", "bold":  true },
+      { "text":  " присутствовать на одного " },
+      { "text":  "Изгоя", "color":  "blue" },
+      { "text":  " больше или меньше." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/9/91/Sentinel.png"
+}

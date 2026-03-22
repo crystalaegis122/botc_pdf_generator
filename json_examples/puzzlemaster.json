@@ -1,0 +1,23 @@
+{
+  "id": "ru_RU_puzzlemaster",
+  "name": "Головоломщик",
+  "team": "outsider",
+  "firstNight": 0.0,
+  "firstNightReminder": "",
+  "otherNight": 0.0,
+  "otherNightReminder": "",
+  "reminders": ["Нет способности", "Пьян"],
+  "setup": false,
+  "ability": [
+    { "text": "Один из игроков " },
+    { "text": "пьян", "bold": true },
+    { "text": ", даже если вы умираете. Если вы верно угадываете " },
+    { "text": "(один раз за игру)", "bold": true },
+    { "text": " этого игрока, вы узнаете, кто является " },
+    { "text": "Демоном", "color": "red" },
+    { "text": ", иначе вы получаете " },
+    { "text": "ложную информацию", "bold": true },
+    { "text": "." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/1/1b/Puzzlemaster.png"
+}

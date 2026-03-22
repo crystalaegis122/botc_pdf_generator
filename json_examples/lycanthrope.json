@@ -1,0 +1,38 @@
+{
+    "id": "ru_RU_lycanthrope",
+    "name": "Оборотень",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 22.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Оборотня", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Оборотня", "color": "blue" },
+      { "text": ". Если выбранный игрок ", "bold": false },
+      { "text": "добрый", "color": "blue" },
+      { "text": " и у него нет пометки «Ложный след», он умирает. Поставьте пометку «Умирает» рядом с его жетоном роли. Позже той же ночью пробудите ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": ", как обычно, но ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " не может убивать.", "bold": false }
+    ],
+    "reminders": ["Умирает", "Ложный след"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите ", "bold": false },
+      { "text": "живого", "bold": true },
+      { "text": " игрока. Если этот игрок ", "bold": false },
+      { "text": "добрый", "color": "blue" },
+      { "text": ", он умирает и ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " не убивает текущей ночью. Один из ", "bold": false },
+      { "text": "добрых", "color": "blue" },
+      { "text": " игроков определяется ", "bold": false },
+      { "text": "злым", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/c/c1/Lycanthrope.png"
+}

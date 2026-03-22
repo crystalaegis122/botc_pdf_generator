@@ -1,0 +1,29 @@
+{
+    "id": "ru_RU_sage",
+    "name": "Мудрец",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 42.0,
+    "otherNightReminder": [
+      { "text": "Если ", "bold": false },
+      { "text": "Мудрец", "color": "blue" },
+      { "text": " был убит ", "bold": false },
+      { "text": "Демоном", "color": "red" },
+      { "text": ", пробудите ", "bold": false },
+      { "text": "Мудреца", "color": "blue" },
+      { "text": ". Укажите на двух игроков, один из которых - ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": ". Усыпите ", "bold": false },
+      { "text": "Мудреца", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Если ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " убивает вас, вы узнаете, что им является один из двух игроков.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/f/f8/Sage.png"
+}

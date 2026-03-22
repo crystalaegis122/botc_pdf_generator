@@ -1,0 +1,47 @@
+{
+    "id": "ru_RU_acrobat",
+    "name": "Акробат",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 39.0,
+    "otherNightReminder": [
+      { "text": "Пробудите " },
+      { "text": "Акробата", "color": "blue" },
+      { "text": ". Он указывает на игрока. Усыпите " },
+      { "text": "Акробата", "color": "blue" },
+      { "text": ". Если выбранный игрок " },
+      { "text":  "пьян", "bold": true },
+      { "text":  " или " },
+      { "text":  "отравлен", "bold": true },
+      { "text":  ", " },
+      { "text": "Акробат", "color": "blue" },
+      { "text":  " умирает. Поставьте рядом с его жетоном роли пометку " },
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text":  ". Иначе поставьте рядом с жетоном роли выбранного игрока пометку " },
+      { "text": "«Выбран»", "color": "magenta" },
+      { "text": ". Если выбранный игрок в течение ночи окажется " },
+      { "text":  "пьян", "bold": true },
+      { "text":  " или " },
+      { "text":  "отравлен", "bold": true },
+      { "text":  ", " },
+      { "text": "Акробат", "color": "blue" },
+      { "text":  " умирает. Поставьте рядом с его жетоном роли пометку " },
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text":  "." }
+    ],
+    "reminders": [
+      "Выбран",
+      "Умирает"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Каждую ночь*:", "bold": true },
+      { "text":  " выберите игрока. Если он " },
+      { "text":  "пьян", "bold": true },
+      { "text":  " или " },
+      { "text":  "отравлен", "bold": true },
+      { "text":  " текущей ночью, вы умираете." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/8/8f/Acrobat.png"
+}

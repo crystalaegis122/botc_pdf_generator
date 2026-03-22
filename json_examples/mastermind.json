@@ -1,0 +1,17 @@
+{
+    "id": "ru_RU_mastermind",
+    "name": "Кукловод",
+    "team": "minion",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Если ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " умирает в результате казни и игра должна завершиться, сыграйте еще один день. Если в этот день казнят игрока, его команда проигрывает.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/1/19/Mastermind.png"
+}

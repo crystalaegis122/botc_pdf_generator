@@ -1,0 +1,19 @@
+{
+    "id": "ru_RU_baron",
+    "name": "Барон",
+    "team": "minion",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": [
+      { "text":  "В игре присутствует большее число " },
+      { "text":  "Изгоев", "color":  "blue" },
+      { "text":  ". [+2 " },
+      { "text":  "Изгоя", "color":  "blue" },
+      { "text":  "]" }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/40/Baron.png"
+}

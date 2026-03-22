@@ -1,0 +1,19 @@
+{
+  "id": "ru_RU_virgin",
+  "name": "Девственница",
+  "team": "townsfolk",
+  "firstNight": 0.0,
+  "firstNightReminder": "",
+  "otherNight": 0.0,
+  "otherNightReminder": "",
+  "reminders": ["Нет способности"],
+  "setup": false,
+  "ability": [
+    { "text": "Первый раз, когда вас номинируют, если номинирующий – " },
+    { "text": "Горожанин", "color": "blue" },
+    { "text": ", его немедленно " },
+    { "text": "казнят", "bold": true },
+    { "text": "." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/4/43/Virgin.png"
+}

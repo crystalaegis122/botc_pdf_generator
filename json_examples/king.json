@@ -1,0 +1,50 @@
+{
+  "id": "ru_RU_king",
+  "name": "Король",
+  "team": "townsfolk",
+  "firstNight": 10.0,
+  "firstNightReminder": [
+    { "text": "Пробудите " },
+    { "text": "Демона", "color": "red" },
+    { "text": ". Покажите ему карточку " },
+    { "text": "«Этот игрок»", "color": "magenta" },
+    { "text": ", затем жетон " },
+    { "text": "Короля", "color": "blue" },
+    { "text": ", затем укажите на игрока " },
+    { "text": "Короля", "color": "blue" },
+    { "text": ". Усыпите " },
+    { "text": "Демона", "color": "red" },
+    { "text": "." }
+  ],
+  "otherNight": 63.0,
+  "otherNightReminder": [
+    { "text": "Если число " },
+    { "text": "мертвых", "bold": true },
+    { "text": " игроков не меньше, чем число " },
+    { "text": "живых", "bold": true },
+    { "text": ", пробудите " },
+    { "text": "Короля", "color": "blue" },
+    { "text": ". Покажите один жетон " },
+    { "text": "живой", "bold": true },
+    { "text": " роли. Усыпите " },
+    { "text": "Короля", "color": "blue" },
+    { "text": "." }
+  ],
+  "reminders": [],
+  "setup": false,
+  "ability": [
+    { "text": "Каждую ночь:", "bold": true },
+    { "text": " если число " },
+    { "text": "мертвых", "bold": true },
+    { "text": " игроков больше либо равно числу " },
+    { "text": "живых", "bold": true },
+    { "text": ", вы узнаете роль одного из " },
+    { "text": "живых", "bold": true },
+    { "text": " игроков. " },
+    { "text": "Демон", "color": "red" },
+    { "text": " знает, что вы – " },
+    { "text": "Король", "color": "blue" },
+    { "text": "." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/1/1d/King.png"
+}

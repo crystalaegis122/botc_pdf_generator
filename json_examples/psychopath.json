@@ -1,0 +1,20 @@
+{
+  "id": "ru_RU_psychopath",
+  "name": "Психопат",
+  "team": "minion",
+  "firstNight": 0.0,
+  "firstNightReminder": "",
+  "otherNight": 0.0,
+  "otherNightReminder": "",
+  "reminders": [],
+  "setup": false,
+  "ability": [
+    { "text": "Каждый день, до начала номинаций:", "bold": true },
+    { "text": " вы можете " },
+    { "text": "публично", "bold": true },
+    { "text": " выбрать игрока. Он умирает. Если вас " },
+    { "text": "казнят", "bold": true },
+    { "text": ", вы умираете только в случае проигрыша в камень-ножницы-бумага." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/6/63/Psychopath.png"
+}

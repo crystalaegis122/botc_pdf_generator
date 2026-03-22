@@ -1,0 +1,40 @@
+{
+    "id": "ru_RU_empath",
+    "name": "Эмпат",
+    "team": "townsfolk",
+    "firstNight": 37.0,
+    "firstNightReminder": [
+      { "text":  "Пробудите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  ". Покажите жестом число (0, 1 или 2) " },
+      { "text":  "злых", "color":  "red" },
+      { "text":  " игроков среди его " },
+      { "text":  "живых", "bold": true },
+      { "text":  " соседей. Усыпите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  "." }
+    ],
+    "otherNight": 53.0,
+    "otherNightReminder": [
+      { "text":  "Пробудите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  ". Покажите жестом число (0, 1 или 2) " },
+      { "text":  "злых", "color":  "red" },
+      { "text":  " игроков среди его " },
+      { "text":  "живых", "bold": true },
+      { "text":  " соседей. Усыпите " },
+      { "text":  "Эмпата", "color":  "blue" },
+      { "text":  "." }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text":  "Каждую ночь:", "bold": true },
+      { "text":  " вы узнаете число " },
+      { "text":  "злых", "color":  "red" },
+      { "text":  " игроков среди двух ваших " },
+      { "text":  "живых", "bold": true },
+      { "text":  " соседей." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/4e/Empath.png"
+}

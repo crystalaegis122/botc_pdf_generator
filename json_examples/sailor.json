@@ -1,0 +1,42 @@
+{
+    "id": "ru_RU_sailor",
+    "name": "Моряк",
+    "team": "townsfolk",
+    "firstNight": 11.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Моряк", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Моряк", "color": "blue" },
+      { "text": ". Либо ", "bold": false },
+      { "text": "Моряк", "color": "blue" },
+      { "text": ", либо выбранный игрок становится ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": ", поставьте рядом с его жетоном роли пометку «Пьян».", "bold": false }
+    ],
+    "otherNight": 4.0,
+    "otherNightReminder": [
+      { "text": "Ранее опьяневший игрок ", "bold": false },
+      { "text": "трезвеет", "bold": true },
+      { "text": ". Пробудите ", "bold": false },
+      { "text": "Моряк", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Моряк", "color": "blue" },
+      { "text": ". Либо ", "bold": false },
+      { "text": "Моряк", "color": "blue" },
+      { "text": ", либо выбранный игрок становится ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": ", поставьте рядом с его жетоном роли пометку «Пьян».", "bold": false }
+    ],
+    "reminders": ["Пьян"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите ", "bold": false },
+      { "text": "живого", "bold": true },
+      { "text": " игрока. Один среди вас и этого игрока становится ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": " до заката. Вы не можете умереть.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/c/ce/Sailor.png"
+}

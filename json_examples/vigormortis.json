@@ -1,0 +1,34 @@
+{
+    "id": "ru_RU_vigormortis",
+    "name": "Вигормортис",
+    "team": "demon",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 32.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Вигормортиса", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Вигормортиса", "color": "red" },
+      { "text": ". Выбранный игрок умирает, поставьте его жетону роли пометку «Умирает». Если выбранный игрок - ", "bold": false },
+      { "text": "Приспешник", "color": "red" },
+      { "text": ", поставьте его жетону роли пометку «Способность доступна». Ближайший по часовой стрелке или ближайший против часовой стрелки ", "bold": false },
+      { "text": "Горожанин", "color": "blue" },
+      { "text": " становится ", "bold": false },
+      { "text": "отравленным", "bold": true },
+      { "text": ", поставьте ему пометку «Отравлен».", "bold": false }
+    ],
+    "reminders": ["Способность доступна", "Умирает", "Отравлен"],
+    "setup": true,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите игрока. Он умирает. Убитые вами ", "bold": false },
+      { "text": "Приспешники", "color": "red" },
+      { "text": " сохраняют свои способности и отравляют одного соседнего ", "bold": false },
+      { "text": "Горожанина", "color": "blue" },
+      { "text": ". [-1 ", "bold": false },
+      { "text": "Изгой", "color": "blue" },
+      { "text": "]", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/f/fc/Vigormortis.png"
+}

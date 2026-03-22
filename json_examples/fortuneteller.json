@@ -1,0 +1,42 @@
+{
+    "id": "ru_RU_fortuneteller",
+    "name": "Гадалка",
+    "team": "townsfolk",
+    "firstNight": 38.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ". ", "bold": false },
+      { "text": "Гадалка", "color": "blue" },
+      { "text": " указывает на любых двух игроков. Если выбранный игрок это ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " или имеет пометку «Ложный след», утвердительно кивните «да». В противном случае покачайте головой «нет». Усыпите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 54.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ". ", "bold": false },
+      { "text": "Гадалка", "color": "blue" },
+      { "text": " указывает на любых двух игроков. Если выбранный игрок это ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " или имеет пометку «Ложный след», утвердительно кивните «да». В противном случае покачайте головой «нет». Усыпите ", "bold": false },
+      { "text": "Гадалку", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Ложный след"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите двух игроков. Вы узнаете, есть ли среди них ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": ". Один из ", "bold": false },
+      { "text": "добрых", "color": "blue" },
+      { "text": " игроков определяется вами как ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/6/67/Fortuneteller.png"
+}

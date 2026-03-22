@@ -1,0 +1,41 @@
+{
+    "id": "ru_RU_scarletwoman",
+    "name": "Блудница",
+    "team": "minion",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 19.0,
+    "otherNightReminder": [
+      { "text":  "Если " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  " умирает и непосредственно перед смертью " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  " было пять или более " },
+      { "text":  "живых", "bold":  true },
+      { "text":  " игроков (не считая " },
+      { "text":  "Странников", "color":  "magenta" },
+      { "text":  "), замените жетон " },
+      { "text":  "Блудницы", "color":  "red" },
+      { "text":  " на жетон " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  ". Пробудите нового " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  ", покажите ему карточку " },
+      { "text":  "«Вы теперь»", "color":  "magenta" },
+      { "text":  ", а затем покажите ему жетон его новой роли." }
+    ],
+    "reminders": [
+      "Блудница"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Если живы хотя бы 5 игроков (" },
+      { "text":  "Странники", "color":  "magenta" },
+      { "text":  " не считаются) и " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  " умирает, вы становитесь " },
+      { "text":  "Демоном", "color":  "red" },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/a/ac/Scarletwoman.png"
+}

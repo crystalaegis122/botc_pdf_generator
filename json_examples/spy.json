@@ -1,0 +1,36 @@
+{
+    "id": "ru_RU_spy",
+    "name": "Шпион",
+    "team": "minion",
+    "firstNight": 49.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 68.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите ", "bold": false },
+      { "text": "Шпиона", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": загляните в Гримуар. Вы можете определяться ", "bold": false },
+      { "text": "добрым", "color": "blue" },
+      { "text": " и как ", "bold": false },
+      { "text": "Горожанин", "color": "blue" },
+      { "text": " или ", "bold": false },
+      { "text": "Изгой", "color": "blue" },
+      { "text": ", даже будучи ", "bold": false },
+      { "text": "мертвым", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/3/36/Spy.png"
+}

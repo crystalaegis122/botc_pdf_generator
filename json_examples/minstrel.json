@@ -1,0 +1,21 @@
+{
+    "id": "ru_RU_minstrel",
+    "name": "Менестрель",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Все пьяны"],
+    "setup": false,
+    "ability": [
+      { "text": "Когда ", "bold": false },
+      { "text": "Приспешника", "color": "red" },
+      { "text": " убивают на казни, все игроки (кроме вас и ", "bold": false },
+      { "text": "Странников", "color": "magenta" },
+      { "text": ") становятся ", "bold": false },
+      { "text": "пьяными", "bold": true },
+      { "text": " до заката следующего дня.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/6/66/Minstrel.png"
+}

@@ -1,0 +1,23 @@
+{
+    "id": "ru_RU_sweetheart",
+    "name": "Душечка",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 41.0,
+    "otherNightReminder": [
+      { "text": "Если ", "bold": false },
+      { "text": "Душечка", "color": "blue" },
+      { "text": " умирает, вы выбираете одного игрока, который станет ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": ". Поставьте его жетону роли пометку «Пьян».", "bold": false }
+    ],
+    "reminders": ["Пьян"],
+    "setup": false,
+    "ability": [
+      { "text": "Когда вы умираете, один из игроков впредь становится ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/c/c2/Sweetheart.png"
+}

@@ -1,0 +1,15 @@
+{
+    "id": "ru_RU_fool",
+    "name": "Шут",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Нет способности"],
+    "setup": false,
+    "ability": [
+      { "text": "Первый раз, когда вы умираете, вы не умираете.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/70/Fool.png"
+}

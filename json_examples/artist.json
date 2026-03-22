@@ -1,0 +1,18 @@
+{
+    "id": "ru_RU_artist",
+    "name": "Художник",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Нет способности"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Один раз за игру, днем: приватно", "bold": true },
+      { "text":  " задайте Рассказчику любой вопрос, на который можно ответить «да» или «нет»." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/a/a5/Artist.png"
+}

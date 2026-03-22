@@ -1,0 +1,23 @@
+{
+    "id": "ru_RU_moonchild",
+    "name": "Дитя луны",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 50.0,
+    "otherNightReminder": [
+      { "text": "Если выбранный игрок ", "bold": false },
+      { "text": "добрый", "color": "blue" },
+      { "text": ", он умирает. Поставьте его жетону роли пометку «Умирает».", "bold": false }
+    ],
+    "reminders": ["Умирает"],
+    "setup": false,
+    "ability": [
+      { "text": "Когда вы узнаете, что умерли, публично выберите ", "bold": false },
+      { "text": "живого", "bold": true },
+      { "text": " игрока. Ночью, если этот игрок был ", "bold": false },
+      { "text": "добрым", "color": "blue" },
+      { "text": ", он умирает.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/7d/Moonchild.png"
+}

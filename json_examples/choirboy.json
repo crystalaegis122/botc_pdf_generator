@@ -1,0 +1,35 @@
+{
+    "id": "ru_RU_choirboy",
+    "name": "Хорист",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 44.0,
+    "otherNightReminder": [
+      { "text": "Если " },
+      { "text": "Король", "color": "blue" },
+      { "text": " был убит " },
+      { "text": "Демоном", "color": "red" },
+      { "text": ", пробудите " },
+      { "text": "Хориста", "color": "blue" },
+      { "text": ". Укажите на " },
+      { "text": "Демона", "color": "red" },
+      { "text": ". Усыпите " },
+      { "text": "Хориста", "color": "blue" },
+      { "text": "." }
+    ],
+    "reminders": [],
+    "setup": true,
+    "ability": [
+      { "text": "Если " },
+      { "text": "Демон", "color": "red" },
+      { "text": " убивает " },
+      { "text": "Короля", "color": "blue" },
+      { "text": ", вы узнаете, кто из игроков является " },
+      { "text": "Демоном", "color": "red" },
+      { "text": ". [+" },
+      { "text": "Король", "color": "blue" },
+      { "text": "]" }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/f/f3/Choirboy.png"
+}

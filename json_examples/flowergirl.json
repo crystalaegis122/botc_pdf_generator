@@ -1,0 +1,26 @@
+{
+    "id": "ru_RU_flowergirl",
+    "name": "Цветочница",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 57.0,
+    "otherNightReminder": [
+      { "text": "Если ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " голосует за какую-либо казнь, положите пометку «Голосовал» рядом с его жетоном роли. Ночью пробудите ", "bold": false },
+      { "text": "Цветочницу", "color": "blue" },
+      { "text": ". Если пометка «Голосовал» присутствует в игре, кивните головой в знак «да». Иначе покачайте головой «нет». Усыпите ", "bold": false },
+      { "text": "Цветочницу", "color": "blue" },
+      { "text": ". Уберите пометку «Голосовал», если таковая имеется.", "bold": false }
+    ],
+    "reminders": ["Голосовал"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": вы узнаете, голосовал ли ", "bold": false },
+      { "text": "Демон", "color": "red" },
+      { "text": " прошедшим днем.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/5/5b/Flowergirl.png"
+}

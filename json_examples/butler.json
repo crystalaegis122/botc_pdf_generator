@@ -1,0 +1,28 @@
+{
+    "id": "ru_RU_butler",
+    "name": "Дворецкий",
+    "team": "outsider",
+    "firstNight": 39.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Поставьте пометку «Господин» рядом с жетоном роли этого игрока. Усыпите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 67.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Поставьте пометку «Господин» рядом с жетоном роли этого игрока. Усыпите ", "bold": false },
+      { "text": "Дворецкого", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Господин"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите игрока (кроме себя). На следующий день вы можете голосовать, только если этот игрок тоже голосует.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/8/82/Butler.png"
+}

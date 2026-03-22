@@ -1,0 +1,17 @@
+{
+    "id": "ru_RU_tinker",
+    "name": "Механик",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 49.0,
+    "otherNightReminder": [
+      { "text": "Механик может умереть.", "bold": false }
+    ],
+    "reminders": ["Умирает"],
+    "setup": false,
+    "ability": [
+      { "text": "Вы можете умереть в любой момент.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/e/ec/Tinker.png"
+}

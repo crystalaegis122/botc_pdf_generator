@@ -1,0 +1,28 @@
+{
+    "id": "ru_RU_assassin",
+    "name": "Убийца",
+    "team": "minion",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 36.0,
+    "otherNightReminder": [
+      { "text": "Если ", "bold": false },
+      { "text": "Убийца", "color": "red" },
+      { "text": " еще не применял свою способность, пробудите ", "bold": false },
+      { "text": "Убийцу", "color": "red" },
+      { "text": ". Он либо качает головой, либо указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Убийцу", "color": "red" },
+      { "text": ". Если ", "bold": false },
+      { "text": "Убийца", "color": "red" },
+      { "text": " выбрал игрока, тот умирает. Поставьте его жетону роли пометку «Умирает». Этому нельзя помешать никаким образом. ", "bold": false },
+      { "text": "Убийца", "color": "red" },
+      { "text": " теряет свою способность. Поставьте его жетону роли пометку «Нет способности».", "bold": false }
+    ],
+    "reminders": ["Нет способности", "Умирает"],
+    "setup": false,
+    "ability": [
+      { "text": "Один раз за игру, ночью✳", "bold": true },
+      { "text": ": выберите игрока. Он умирает, даже если по какой-либо причине не может умереть.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/6/69/Assassin.png"
+}

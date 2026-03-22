@@ -1,0 +1,26 @@
+{
+    "id": "ru_RU_towncrier",
+    "name": "Глашатай",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 58.0,
+    "otherNightReminder": [
+      { "text": "Если какой-либо ", "bold": false },
+      { "text": "Приспешник", "color": "red" },
+      { "text": " номинирует, положите пометку «Номинировал» рядом с его жетоном роли. Ночью пробудите ", "bold": false },
+      { "text": "Глашатая", "color": "blue" },
+      { "text": ". Если в игре присутствует пометка «Номинировал», кивните головой в знак «да». Иначе покачайте головой «нет». Усыпите ", "bold": false },
+      { "text": "Глашатая", "color": "blue" },
+      { "text": ". Уберите пометку «Номинировал», если таковая имеется.", "bold": false }
+    ],
+    "reminders": ["Номинировал"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": вы узнаете, номинировал ли ", "bold": false },
+      { "text": "Приспешник", "color": "red" },
+      { "text": " прошедшим днем.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/b7/Towncrier.png"
+}

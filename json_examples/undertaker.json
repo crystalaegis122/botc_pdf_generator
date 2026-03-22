@@ -1,0 +1,32 @@
+{
+    "id": "ru_RU_undertaker",
+    "name": "Гробовщик",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 55.0,
+    "otherNightReminder": [
+      { "text":  "Если какой-либо игрок сегодня умер от " },
+      { "text":  "казни", "bold": true },
+      { "text":  ", пробудите " },
+      { "text":  "Гробовщика", "color": "blue" },
+      { "text":  ". Покажите ему жетон роли с пометкой " },
+      { "text":  "«Умер от казни»", "color": "magenta" },
+      { "text":  ". Усыпите " },
+      { "text":  "Гробовщика", "color": "blue" },
+      { "text":  ". Уберите пометку " },
+      { "text":  "«Умер от казни»", "color": "magenta" },
+      { "text":  "." }
+    ],
+    "reminders": [
+      "Казнен"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Каждую ночь*:", "bold": true },
+      { "text":  " вы узнаете роль игрока, умершего в результате " },
+      { "text":  "казни", "bold": true },
+      { "text":  " прошедшим днем." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/c/c7/Undertaker.png"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ru_RU_eviltwin",
+  "name": "Злой близнец",
+  "team": "minion",
+  "firstNight": 23.0,
+  "firstNightReminder": [
+    { "text": "Пробудите обоих Близнецов. Пусть они посмотрят друг другу в глаза. Укажите на " },
+    { "text": "Злого близнеца", "color": "red" },
+    { "text": ", затем покажите жетон " },
+    { "text": "Злого близнеца", "color": "red" },
+    { "text": " Доброму близнецу", "color": "blue" },
+    { "text": ". Укажите на " },
+    { "text": "Доброго близнеца", "color": "blue" },
+    { "text": ", затем покажите жетон роли " },
+    { "text": "Доброго близнеца ", "color": "blue" },
+    { "text": "Злому близнецу", "color": "red" },
+    { "text": ". Усыпите обоих." }
+  ],
+  "otherNight": 0.0,
+  "otherNightReminder": "",
+  "reminders": ["Близнец"],
+  "setup": false,
+  "ability": [
+    { "text": "Вы и игрок противоположной стороны знаете друг друга и ваши роли. Если " },
+    { "text": "доброго", "color": "blue" },
+    { "text": " игрока из вашей пары " },
+    { "text": "казнят", "bold": true },
+    { "text": ", " },
+    { "text": "зло", "color": "red" },
+    { "text": " " },
+    { "text": "побеждает", "bold": true },
+    { "text": ". " },
+    { "text": "Добро", "color": "blue" },
+    { "text": " не может " },
+    { "text": "победить", "bold": true },
+    { "text": ", пока вы оба " },
+    { "text": "живы", "bold": true },
+    { "text": "." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/8/8e/Eviltwin.png"
+}

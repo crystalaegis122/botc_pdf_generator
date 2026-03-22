@@ -1,0 +1,21 @@
+{
+    "id": "ru_RU_tealady",
+    "name": "Травница",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Не может умереть"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Если оба ваших " },
+      { "text":  "живых", "bold": true },
+      { "text":  " соседа являются " },
+      { "text":  "добрыми", "color":  "blue" },
+      { "text":  ", они не могут умереть." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/bc/Tealady.png"
+}

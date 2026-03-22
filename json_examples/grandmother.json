@@ -1,0 +1,41 @@
+{
+    "id": "ru_RU_grandmother",
+    "name": "Бабушка",
+    "team": "townsfolk",
+    "firstNight": 40.0,
+    "firstNightReminder": [
+      { "text": "Пробудите " },
+      { "text": "Бабушку", "color": "blue" },
+      { "text": " и покажите ей жетон роли с пометкой " },
+      { "text": "«Внук»", "color": "magenta" },
+      { "text": ", затем укажите на игрока с этой пометкой, после чего усыпите " },
+      { "text": "Бабушку", "color": "blue" },
+      { "text": "." }
+    ],
+    "otherNight": 51.0,
+    "otherNightReminder": [
+      { "text": "Если " },
+      { "text": "Демон", "color": "red" },
+      { "text": " убивает " },
+      { "text": "Внука", "color": "blue" },
+      { "text": ", то " },
+      { "text": "Бабушка", "color": "blue" },
+      { "text": " умирает. Поставьте рядом с ее жетоном роли пометку " },
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text": "." }
+    ],
+    "reminders": [
+      "Внук",
+      "Умирает"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Вступление:", "bold": true },
+      { "text":  " вы узнаете " },
+      { "text":  "доброго", "color":  "blue" },
+      { "text":  " игрока и его роль. Если " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  " его убивает, вы тоже умираете." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/6/66/Grandmother.png"
+}

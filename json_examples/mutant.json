@@ -1,0 +1,19 @@
+{
+    "id": "ru_RU_mutant",
+    "name": "Уродец",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Если вы ", "bold": false },
+      { "text": "внушаете", "bold": true },
+      { "text": ", что являетесь ", "bold": false },
+      { "text": "Изгоем", "color": "blue" },
+      { "text": ", вы можете быть казнены.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/5/58/Mutant.png"
+}

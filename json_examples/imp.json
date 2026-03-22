@@ -1,0 +1,40 @@
+{
+    "id": "ru_RU_imp",
+    "name": "Черт",
+    "team": "demon",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 24.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Выбранный игрок умирает, поставьте пометку «Умирает» рядом с жетоном роли выбранного игрока и наложите на него саван. Если ", "bold": false },
+      { "text": "Черт", "color": "red" },
+      { "text": " убил себя ночью, выберите ", "bold": false },
+      { "text": "живого", "bold": true },
+      { "text": " ", "bold": false },
+      { "text": "Приспешника", "color": "red" },
+      { "text": " и замените его жетон роли на жетон ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Пробудите нового ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ", покажите ему карточку «Вы теперь», затем покажите ему жетон ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ". Усыпите нового ", "bold": false },
+      { "text": "Черта", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Умирает"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*:", "bold": true },
+      { "text": " выберите игрока. Он умирает. Если вы убиваете себя таким образом, один из ", "bold": false },
+      { "text": "Приспешников", "color": "red" },
+      { "text": " становится ", "bold": false },
+      { "text": "Чертом", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/b/b3/Imp.png"
+}

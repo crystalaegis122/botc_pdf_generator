@@ -1,0 +1,34 @@
+{
+    "id": "ru_RU_librarian",
+    "name": "Библиотекарь",
+    "team": "townsfolk",
+    "firstNight": 34.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Библиотекаря", "color": "blue" },
+      { "text": ". Если в игре нет ", "bold": false },
+      { "text": "Изгоев", "color": "blue" },
+      { "text": ", жестом покажите ему число 0. Иначе укажите на игроков с пометками «", "bold": false },
+      { "text": "Изгой", "color": "blue" },
+      { "text": "» и «Ложный след». Покажите жетон роли с пометкой «", "bold": false },
+      { "text": "Изгой", "color": "blue" },
+      { "text": "» ", "bold": false },
+      { "text": "Библиотекарю", "color": "blue" },
+      { "text": ". Усыпите ", "bold": false },
+      { "text": "Библиотекаря", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Изгой", "Ложный след"],
+    "setup": false,
+    "ability": [
+      { "text": "Вступление", "bold": true },
+      { "text": ": вы узнаете, что один из двух игроков является определенным ", "bold": false },
+      { "text": "Изгоем", "color": "blue" },
+      { "text": " или что в игре отсутствуют ", "bold": false },
+      { "text": "Изгои", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/5/55/Librarian.png"
+}

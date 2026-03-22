@@ -1,0 +1,28 @@
+{
+    "id": "ru_RU_vortox",
+    "name": "Вортокс",
+    "team": "demon",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 31.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Вортокса", "color": "red" },
+      { "text": ". Он указывает на любого игрока. Этот игрок умирает, поставьте его жетону роли пометку «Умирает». Усыпите ", "bold": false },
+      { "text": "Вортокса", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Умирает"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите игрока. Он умирает. Способности ", "bold": false },
+      { "text": "Горожан", "color": "blue" },
+      { "text": " дают ложную информацию. ", "bold": false },
+      { "text": "Каждый день", "bold": true },
+      { "text": ": если никого не казнят, зло ", "bold": false },
+      { "text": "побеждает", "bold": true },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/78/Vortox.png"
+}

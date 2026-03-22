@@ -1,0 +1,32 @@
+{
+    "id": "ru_RU_witch",
+    "name": "Ведьма",
+    "team": "minion",
+    "firstNight": 24.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Ведьму", "color": "red" },
+      { "text": ". Она указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Ведьму", "color": "red" },
+      { "text": ". Поставьте пометку «Проклят» рядом с жетоном роли выбранного игрока.", "bold": false }
+    ],
+    "otherNight": 14.0,
+    "otherNightReminder": [
+      { "text": "Если ", "bold": false },
+      { "text": "живы", "bold": true },
+      { "text": " 4 или больше игроков, пробудите ", "bold": false },
+      { "text": "Ведьму", "color": "red" },
+      { "text": ". Она указывает на любого игрока. Усыпите ", "bold": false },
+      { "text": "Ведьму", "color": "red" },
+      { "text": ". Поставьте пометку «Проклят» рядом с жетоном роли выбранного игрока.", "bold": false }
+    ],
+    "reminders": ["Проклят"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите игрока. Если на следующий день этот игрок номинирует, он умирает. Если в ", "bold": false },
+      { "text": "живых", "bold": true },
+      { "text": " осталось только 3 игрока, вы теряете эту способность.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/e/e6/Witch.png"
+}

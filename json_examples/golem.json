@@ -1,0 +1,19 @@
+{
+  "id": "ru_RU_golem",
+  "name": "Голем",
+  "team": "outsider",
+  "firstNight": 0.0,
+  "firstNightReminder": "",
+  "otherNight": 0.0,
+  "otherNightReminder": "",
+  "reminders": ["Не может номинировать"],
+  "setup": false,
+  "ability": [
+    { "text": "Вы можете номинировать " },
+    { "text": "только один раз за игру", "bold": true },
+    { "text": ". Если номинированный вами игрок не является " },
+    { "text": "Демоном", "color": "red" },
+    { "text": ", он умирает." }
+  ],
+  "image": "https://botc.1nv.is/wiki/images/c/ce/Golem.png"
+}

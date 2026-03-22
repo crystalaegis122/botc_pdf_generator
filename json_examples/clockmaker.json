@@ -1,0 +1,30 @@
+{
+    "id": "ru_RU_clockmaker",
+    "name": "Часовщик",
+    "team": "townsfolk",
+    "firstNight": 41.0,
+    "firstNightReminder": [
+      { "text":  "Пробудите " },
+      { "text":  "Часовщика", "color":  "blue" },
+      { "text":  ". Покажите жестом число (0, 1, 2 и т.д.) шагов от " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  " до ближайшего " },
+      { "text":  "Приспешника", "color":  "red" },
+      { "text":  ". Усыпите " },
+      { "text":  "Часовщика", "color":  "blue" },
+      { "text":  "." }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text":  "Вступление:", "bold": true },
+      { "text":  " вы узнаете число шагов от " },
+      { "text":  "Демона", "color":  "red" },
+      { "text":  " до ближайшего к нему " },
+      { "text":  "Приспешника", "color":  "red" },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/7/74/Clockmaker.png"
+}

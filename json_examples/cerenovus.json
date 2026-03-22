@@ -1,0 +1,52 @@
+{
+    "id": "ru_RU_cerenovus",
+    "name": "Цереновус",
+    "team": "minion",
+    "firstNight": 25.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Цереновуса", "color": "red" },
+      { "text": ". Он указывает на любого игрока и на любую роль ", "bold": false },
+      { "text": "Горожанина", "color": "blue" },
+      { "text": " или ", "bold": false },
+      { "text": "Изгоя", "color": "blue" },
+      { "text": " на листе ролей. Усыпите ", "bold": false },
+      { "text": "Цереновуса", "color": "red" },
+      { "text": ". Поставьте рядом с жетоном роли выбранного игрока пометку «", "bold": false },
+      { "text": "Внушает", "bold": true },
+      { "text": "». Пробудите этого игрока, покажите ему карточку «Вы выбраны способностью этой роли» и жетон ", "bold": false },
+      { "text": "Цереновуса", "color": "red" },
+      { "text": ", а затем – жетон роли, обладание которой он должен ", "bold": false },
+      { "text": "внушать", "bold": true },
+      { "text": ". Усыпите этого игрока.", "bold": false }
+    ],
+    "otherNight": 15.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Цереновуса", "color": "red" },
+      { "text": ". Он указывает на любого игрока и на любую роль ", "bold": false },
+      { "text": "Горожанина", "color": "blue" },
+      { "text": " или ", "bold": false },
+      { "text": "Изгоя", "color": "blue" },
+      { "text": " на листе ролей. Усыпите ", "bold": false },
+      { "text": "Цереновуса", "color": "red" },
+      { "text": ". Поставьте рядом с жетоном роли выбранного игрока пометку «", "bold": false },
+      { "text": "Внушает", "bold": true },
+      { "text": "». Пробудите этого игрока, покажите ему карточку «Вы выбраны способностью этой роли» и жетон ", "bold": false },
+      { "text": "Цереновуса", "color": "red" },
+      { "text": ", а затем – жетон роли, обладание которой он должен ", "bold": false },
+      { "text": "внушать", "bold": true },
+      { "text": ". Усыпите этого игрока.", "bold": false }
+    ],
+    "reminders": ["Внушает"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите игрока и ", "bold": false },
+      { "text": "добрую", "color": "blue" },
+      { "text": " роль. На следующий день этот игрок должен ", "bold": false },
+      { "text": "внушать", "bold": true },
+      { "text": ", что обладает указанной ролью, иначе он может быть казнен.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/4d/Cerenovus.png"
+}

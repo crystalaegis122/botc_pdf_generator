@@ -1,0 +1,26 @@
+{
+    "id": "ru_RU_washerwoman",
+    "name": "Прачка",
+    "team": "townsfolk",
+    "firstNight": 33.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Прачку", "color": "blue" },
+      { "text": " и укажите на игроков с пометками «Горожанин» и «Ложный след». Покажите ", "bold": false },
+      { "text": "Прачке", "color": "blue" },
+      { "text": " жетон роли с пометкой «Горожанин». Усыпите ", "bold": false },
+      { "text": "Прачку", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Горожанин", "Ложный след"],
+    "setup": false,
+    "ability": [
+      { "text": "Вступление", "bold": true },
+      { "text": ": вы узнаете, что один из двух игроков является определенным ", "bold": false },
+      { "text": "Горожанином", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/4/45/Washerwoman.png"
+}

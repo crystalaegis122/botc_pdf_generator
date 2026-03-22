@@ -1,0 +1,23 @@
+{
+    "id": "ru_RU_mayor",
+    "name": "Мэр",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Если в " },
+      { "text": "живых", "bold": true },
+      { "text": " осталось 3 игрока и не происходит " },
+      { "text": "казни", "bold": true },
+      { "text": ", ваша команда " },
+      { "text": "побеждает", "bold": true },
+      { "text": ". Если вы умираете ночью, вместо вас " },
+      { "text": "может", "bold": true },
+      { "text": " умереть другой игрок." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/2/20/Mayor.png"
+}

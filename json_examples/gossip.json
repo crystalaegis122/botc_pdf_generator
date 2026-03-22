@@ -1,0 +1,29 @@
+{
+    "id": "ru_RU_gossip",
+    "name": "Сплетница",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 38.0,
+    "otherNightReminder": [
+      { "text": "Если " },
+      { "text": "Сплетница", "color": "blue" },
+      { "text": " сделала сегодня конкретное и верное " },
+      { "text":  "публичное", "bold": true },
+      { "text": " заявление, вы выбираете любого игрока. Выбранный игрок умирает. Поставьте пометку " },
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text": " рядом с его жетоном роли." }
+    ],
+    "reminders": [
+      "Умирает",
+      "Сплетня"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Каждый день:", "bold": true },
+      { "text":  " вы можете сделать " },
+      { "text":  "публичное", "bold": true },
+      { "text":  " заявление. Ночью, если оно было верным, один из игроков умирает." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/a/a4/Gossip.png"
+}

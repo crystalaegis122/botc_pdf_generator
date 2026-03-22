@@ -1,0 +1,38 @@
+{
+    "id": "ru_RU_exorcist",
+    "name": "Экзорцист",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 21.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Экзорциста", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Поставьте пометку «Выбран» рядом с жетоном роли выбранного игрока. Усыпите ", "bold": false },
+      { "text": "Экзорциста", "color": "blue" },
+      { "text": ". Если ", "bold": false },
+      { "text": "Экзорцист", "color": "blue" },
+      { "text": " выбрал ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": ", то пробудите ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": ". Покажите ему карточку «Вы выбраны способностью этой роли» и жетон ", "bold": false },
+      { "text": "Экзорциста", "color": "blue" },
+      { "text": ", затем укажите на ", "bold": false },
+      { "text": "Экзорциста", "color": "blue" },
+      { "text": ". Усыпите ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": ". Позже ночью не будите ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": ["Выбран"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь*", "bold": true },
+      { "text": ": выберите игрока (не того же, что в прошлую ночь). Если вы выбрали ", "bold": false },
+      { "text": "Демона", "color": "red" },
+      { "text": ", он узнает, кто вы, и не просыпается текущей ночью.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/a/ac/Exorcist.png"
+}

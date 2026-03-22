@@ -1,0 +1,18 @@
+{
+    "id": "ru_RU_goon",
+    "name": "Наемник",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": ["Пьян"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": первый игрок, выбравший вас целью своей способности, становится ", "bold": false },
+      { "text": "пьяным", "bold": true },
+      { "text": " до заката. Вы переходите на сторону этого игрока.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/c/cd/Goon.png"
+}

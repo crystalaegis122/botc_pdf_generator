@@ -1,0 +1,20 @@
+{
+    "id": "ru_RU_slayer",
+    "name": "Истребитель",
+    "team": "townsfolk",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Нет способности"
+    ],
+    "setup": false,
+    "ability": [
+      { "text":  "Один раз за игру, днем: публично", "bold": true },
+      { "text":  " выберите игрока. Если этот игрок – " },
+      { "text":  "Демон", "color":  "red" },
+      { "text":  ", он умирает." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/6/6e/Slayer.png"
+}

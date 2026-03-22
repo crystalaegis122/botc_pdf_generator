@@ -1,0 +1,38 @@
+{
+    "id": "ru_RU_chambermaid",
+    "name": "Горничная",
+    "team": "townsfolk",
+    "firstNight": 51.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Горничную", "color": "blue" },
+      { "text": ". Она указывает на любых двух ", "bold": false },
+      { "text": "живых", "bold": true },
+      { "text": " игроков, кроме себя. Покажите ", "bold": false },
+      { "text": "Горничной", "color": "blue" },
+      { "text": " жестом число (0, 1 или 2) проснувшихся сегодня ночью ролей. Усыпите ", "bold": false },
+      { "text": "Горничную", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "otherNight": 70.0,
+    "otherNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Горничную", "color": "blue" },
+      { "text": ". Она указывает на любых двух ", "bold": false },
+      { "text": "живых", "bold": true },
+      { "text": " игроков, кроме себя. Покажите ", "bold": false },
+      { "text": "Горничной", "color": "blue" },
+      { "text": " жестом число (0, 1 или 2) проснувшихся сегодня ночью ролей. Усыпите ", "bold": false },
+      { "text": "Горничную", "color": "blue" },
+      { "text": ".", "bold": false }
+    ],
+    "reminders": [],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите двух ", "bold": false },
+      { "text": "живых", "bold": true },
+      { "text": " игроков (кроме себя). Вы узнаете, сколько из них проснулось текущей ночью из-за своей способности.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/0/00/Chambermaid.png"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "ru_RU_drunk",
+    "name": "Пьяница",
+    "team": "outsider",
+    "firstNight": 0.0,
+    "firstNightReminder": "",
+    "otherNight": 0.0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Пьяница"
+    ],
+    "setup": true,
+    "ability": [
+      { "text":  "Вы не знаете, что вы – " },
+      { "text":  "Пьяница", "color":  "blue" },
+      { "text":  ". Вы считаете себя определенным " },
+      { "text":  "Горожанином", "color":  "blue" },
+      { "text":  "." }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/1/14/Drunk.png"
+}

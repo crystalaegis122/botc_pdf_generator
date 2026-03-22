@@ -1,0 +1,30 @@
+{
+    "id": "ru_RU_devilsadvocate",
+    "name": "Адвокат дьявола",
+    "team": "minion",
+    "firstNight": 22.0,
+    "firstNightReminder": [
+      { "text": "Пробудите ", "bold": false },
+      { "text": "Адвоката дьявола", "color": "red" },
+      { "text": ". Он указывают на любого игрока. Усыпите ", "bold": false },
+      { "text": "Адвоката Дьявола", "color": "red" },
+      { "text": ". Поставьте пометку «Переживает казнь» рядом с жетоном роли выбранного игрока.", "bold": false }
+    ],
+    "otherNight": 13.0,
+    "otherNightReminder": [
+      { "text": "Уберите пометку «Переживает казнь» из игры, если еще не сделали этого. Пробудите ", "bold": false },
+      { "text": "Адвоката дьявола", "color": "red" },
+      { "text": ". Он указывают на любого игрока. Усыпите ", "bold": false },
+      { "text": "Адвоката Дьявола", "color": "red" },
+      { "text": ". Поставьте пометку «Переживает казнь» рядом с жетоном роли выбранного игрока.", "bold": false }
+    ],
+    "reminders": ["Переживает казнь"],
+    "setup": false,
+    "ability": [
+      { "text": "Каждую ночь", "bold": true },
+      { "text": ": выберите ", "bold": false },
+      { "text": "живого", "bold": true },
+      { "text": " игрока (не того же, что в прошлую ночь). Если на следующий день его казнят, он не умирает.", "bold": false }
+    ],
+    "image": "https://botc.1nv.is/wiki/images/5/5d/Devilsadvocate.png"
+}
