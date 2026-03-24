@@ -6,21 +6,23 @@
     "firstNightReminder": "",
     "otherNight": 30.0,
     "otherNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Но Даши", "color": "red" },
-      { "text": ". Он указывает на любого игрока. Этот игрок умирает, поставьте рядом с его жетоном роли пометку «Умирает». Усыпите ", "bold": false },
+      { "text": ". Он указывает на любого игрока. Этот игрок умирает, поставьте рядом с его жетоном роли пометку " },
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text": ". Усыпите " },
       { "text": "Но Даши", "color": "red" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "reminders": ["Умирает", "Отравлен"],
     "setup": false,
     "ability": [
-      { "text": "Каждую ночь*", "bold": true },
-      { "text": ": выберите игрока. Он умирает. Два ваших соседних ", "bold": false },
+      { "text": "Каждую ночь*:", "bold": true },
+      { "text": " выберите игрока. Он умирает. Два ваших соседних " },
       { "text": "Горожанина", "color": "blue" },
-      { "text": " ", "bold": false },
+      { "text": " " },
       { "text": "отравлены", "bold": true },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/1/16/Nodashii.png"
 }

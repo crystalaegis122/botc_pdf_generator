@@ -6,24 +6,24 @@
     "firstNightReminder": "",
     "otherNight": 42.0,
     "otherNightReminder": [
-      { "text": "Если ", "bold": false },
+      { "text": "Если " },
       { "text": "Мудрец", "color": "blue" },
-      { "text": " был убит ", "bold": false },
+      { "text": " был убит " },
       { "text": "Демоном", "color": "red" },
-      { "text": ", пробудите ", "bold": false },
+      { "text": ", пробудите " },
       { "text": "Мудреца", "color": "blue" },
-      { "text": ". Укажите на двух игроков, один из которых - ", "bold": false },
+      { "text": ". Укажите на двух игроков, один из которых - " },
       { "text": "Демон", "color": "red" },
-      { "text": ". Усыпите ", "bold": false },
+      { "text": ". Усыпите " },
       { "text": "Мудреца", "color": "blue" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "reminders": [],
     "setup": false,
     "ability": [
-      { "text": "Если ", "bold": false },
+      { "text": "Если " },
       { "text": "Демон", "color": "red" },
-      { "text": " убивает вас, вы узнаете, что им является один из двух игроков.", "bold": false }
+      { "text": " убивает вас, вы узнаете, что им является один из двух игроков." }
     ],
     "image": "https://botc.1nv.is/wiki/images/f/f8/Sage.png"
 }

@@ -6,18 +6,20 @@
     "firstNightReminder": "",
     "otherNight": 50.0,
     "otherNightReminder": [
-      { "text": "Если выбранный игрок ", "bold": false },
+      { "text": "Если выбранный игрок " },
       { "text": "добрый", "color": "blue" },
-      { "text": ", он умирает. Поставьте его жетону роли пометку «Умирает».", "bold": false }
+      { "text": ", он умирает. Поставьте его жетону роли пометку ." },
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text": "." }
     ],
     "reminders": ["Умирает"],
     "setup": false,
     "ability": [
-      { "text": "Когда вы узнаете, что умерли, публично выберите ", "bold": false },
+      { "text": "Когда вы узнаете, что умерли, публично выберите " },
       { "text": "живого", "bold": true },
-      { "text": " игрока. Ночью, если этот игрок был ", "bold": false },
+      { "text": " игрока. Ночью, если этот игрок был " },
       { "text": "добрым", "color": "blue" },
-      { "text": ", он умирает.", "bold": false }
+      { "text": ", он умирает." }
     ],
     "image": "https://botc.1nv.is/wiki/images/7/7d/Moonchild.png"
 }

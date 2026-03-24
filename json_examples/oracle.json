@@ -6,25 +6,25 @@
     "firstNightReminder": "",
     "otherNight": 59.0,
     "otherNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Пророка", "color": "blue" },
-      { "text": ". Покажите жестом число (0, 1, 2 и т.д.), равное количеству ", "bold": false },
+      { "text": ". Покажите жестом число (0, 1, 2 и т.д.), равное количеству " },
       { "text": "мертвых", "bold": true },
-      { "text": " ", "bold": false },
+      { "text": " " },
       { "text": "злых", "color": "red" },
-      { "text": " игроков. Усыпите ", "bold": false },
+      { "text": " игроков. Усыпите " },
       { "text": "Пророка", "color": "blue" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "reminders": [],
     "setup": false,
     "ability": [
-      { "text": "Каждую ночь*", "bold": true },
-      { "text": ": вы узнаете число ", "bold": false },
+      { "text": "Каждую ночь*:", "bold": true },
+      { "text": " вы узнаете число " },
       { "text": "злых", "color": "red" },
-      { "text": " игроков среди ", "bold": false },
+      { "text": " игроков среди " },
       { "text": "мертвых", "bold": true },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/1/17/Oracle.png"
 }

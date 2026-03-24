@@ -9,9 +9,9 @@
     "reminders": [],
     "setup": false,
     "ability": [
-      { "text": "Вы защищены от ", "bold": false },
+      { "text": "Вы защищены от " },
       { "text": "Демона", "color": "red" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/7/7b/Soldier.png"
 }

@@ -6,23 +6,30 @@
     "firstNightReminder": "",
     "otherNight": 31.0,
     "otherNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Вортокса", "color": "red" },
-      { "text": ". Он указывает на любого игрока. Этот игрок умирает, поставьте его жетону роли пометку «Умирает». Усыпите ", "bold": false },
+      { "text": ". Он указывает на любого игрока. Этот игрок умирает, поставьте его жетону роли пометку " },
+      { "text": "«Умирает»", "color": "magenta" },
+      { "text": ". Усыпите " },
       { "text": "Вортокса", "color": "red" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "reminders": ["Умирает"],
     "setup": false,
     "ability": [
-      { "text": "Каждую ночь*", "bold": true },
-      { "text": ": выберите игрока. Он умирает. Способности ", "bold": false },
+      { "text": "Каждую ночь*:", "bold": true },
+      { "text": " выберите игрока. Он умирает. Способности " },
       { "text": "Горожан", "color": "blue" },
-      { "text": " дают ложную информацию. ", "bold": false },
-      { "text": "Каждый день", "bold": true },
-      { "text": ": если никого не казнят, зло ", "bold": false },
-      { "text": "побеждает", "bold": true },
-      { "text": ".", "bold": false }
+      { "text": " дают " },
+      { "text": "ложную информацию", "bold": true },
+      { "text": ". " },
+      { "text": "Каждый день:", "bold": true },
+      { "text": " если никого не " },
+      { "text": "казнят", "bold": true },
+      { "text": ", " },
+      { "text": "зло", "color": "red" },
+      { "text": " побеждает", "bold": true },
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/7/78/Vortox.png"
 }

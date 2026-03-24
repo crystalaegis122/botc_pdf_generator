@@ -4,33 +4,33 @@
     "team": "minion",
     "firstNight": 49.0,
     "firstNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Шпиона", "color": "red" },
-      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите ", "bold": false },
+      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите " },
       { "text": "Шпиона", "color": "red" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "otherNight": 68.0,
     "otherNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Шпиона", "color": "red" },
-      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите ", "bold": false },
+      { "text": " и покажите ему Гримуар на необходимое ему время. Усыпите " },
       { "text": "Шпиона", "color": "red" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "reminders": [],
     "setup": false,
     "ability": [
-      { "text": "Каждую ночь", "bold": true },
-      { "text": ": загляните в Гримуар. Вы можете определяться ", "bold": false },
+      { "text": "Каждую ночь:", "bold": true },
+      { "text": " загляните в Гримуар. Вы можете определяться " },
       { "text": "добрым", "color": "blue" },
-      { "text": " и как ", "bold": false },
+      { "text": " и как " },
       { "text": "Горожанин", "color": "blue" },
-      { "text": " или ", "bold": false },
+      { "text": " или " },
       { "text": "Изгой", "color": "blue" },
-      { "text": ", даже будучи ", "bold": false },
+      { "text": ", даже будучи " },
       { "text": "мертвым", "bold": true },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/3/36/Spy.png"
 }

@@ -9,13 +9,17 @@
     "reminders": ["Все пьяны"],
     "setup": false,
     "ability": [
-      { "text": "Когда ", "bold": false },
+      { "text": "Когда " },
       { "text": "Приспешника", "color": "red" },
-      { "text": " убивают на казни, все игроки (кроме вас и ", "bold": false },
-      { "text": "Странников", "color": "magenta" },
-      { "text": ") становятся ", "bold": false },
+      { "text": " убивают на " },
+      { "text": "казни", "bold": true },
+      { "text": ", все игроки " },
+      { "text": "(кроме вас и ", "italic": true },
+      { "text": "Странников", "color": "magenta", "italic": true },
+      { "text": ")", "italic": true },
+      { "text": " становятся " },
       { "text": "пьяными", "bold": true },
-      { "text": " до заката следующего дня.", "bold": false }
+      { "text": " до заката следующего дня." }
     ],
     "image": "https://botc.1nv.is/wiki/images/6/66/Minstrel.png"
 }

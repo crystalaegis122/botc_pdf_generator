@@ -4,23 +4,23 @@
     "team": "townsfolk",
     "firstNight": 36.0,
     "firstNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Повара", "color": "blue" },
-      { "text": ". Покажите жестом число (0, 1, 2 и т.д.) пар сидящих рядом ", "bold": false },
+      { "text": ". Покажите жестом число (0, 1, 2 и т.д.) пар сидящих рядом " },
       { "text": "злых", "color": "red" },
-      { "text": " игроков в игре. Усыпите ", "bold": false },
+      { "text": " игроков в игре. Усыпите " },
       { "text": "Повара", "color": "blue" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "otherNight": 0.0,
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
     "ability": [
-      { "text": "Вступление", "bold": true },
-      { "text": ": вы узнаете, сколько пар сидящих рядом ", "bold": false },
+      { "text": "Вступление:", "bold": true },
+      { "text": " вы узнаете, сколько пар сидящих рядом " },
       { "text": "злых", "color": "red" },
-      { "text": " игроков присутствует в игре.", "bold": false }
+      { "text": " игроков присутствует в игре." }
     ],
     "image": "https://botc.1nv.is/wiki/images/e/e5/Chef.png"
 }

@@ -9,7 +9,7 @@
     "reminders": ["Нет способности"],
     "setup": false,
     "ability": [
-      { "text": "Первый раз, когда вы умираете, вы не умираете.", "bold": false }
+      { "text": "Первый раз, когда вы умираете, вы не умираете." }
     ],
     "image": "https://botc.1nv.is/wiki/images/7/70/Fool.png"
 }

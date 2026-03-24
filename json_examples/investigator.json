@@ -4,27 +4,29 @@
     "team": "townsfolk",
     "firstNight": 35.0,
     "firstNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Сыщика", "color": "blue" },
-      { "text": " и укажите на игроков с пометками «", "bold": false },
-      { "text": "Приспешник", "color": "red" },
-      { "text": "» и «Ложный след». Покажите жетон роли с пометкой «", "bold": false },
-      { "text": "Приспешник", "color": "red" },
-      { "text": "» ", "bold": false },
+      { "text": " и укажите на игроков с пометками " },
+      { "text": "«Приспешник»", "color": "magenta" },
+      { "text": " и " },
+      { "text": "«Ложный след»", "color": "magenta" },
+      { "text": ". Покажите жетон роли с пометкой " },
+      { "text": "«Приспешник»", "color": "magenta" },
+      { "text": " " },
       { "text": "Сыщику", "color": "blue" },
-      { "text": ". Усыпите ", "bold": false },
+      { "text": ". Усыпите " },
       { "text": "Сыщика", "color": "blue" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "otherNight": 0.0,
     "otherNightReminder": "",
     "reminders": ["Ложный след", "Приспешник"],
     "setup": false,
     "ability": [
-      { "text": "Вступление", "bold": true },
-      { "text": ": вы узнаете, что один из двух игроков является определенным ", "bold": false },
+      { "text": "Вступление:", "bold": true },
+      { "text": " вы узнаете, что один из двух игроков является определенным " },
       { "text": "Приспешником", "color": "red" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/c/cb/Investigator.png"
 }

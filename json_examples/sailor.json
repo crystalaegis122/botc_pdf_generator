@@ -4,39 +4,43 @@
     "team": "townsfolk",
     "firstNight": 11.0,
     "firstNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
+      { "text": "Моряка", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Усыпите " },
+      { "text": "Моряка", "color": "blue" },
+      { "text": ". Либо " },
       { "text": "Моряк", "color": "blue" },
-      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
-      { "text": "Моряк", "color": "blue" },
-      { "text": ". Либо ", "bold": false },
-      { "text": "Моряк", "color": "blue" },
-      { "text": ", либо выбранный игрок становится ", "bold": false },
+      { "text": ", либо выбранный игрок становится " },
       { "text": "пьяным", "bold": true },
-      { "text": ", поставьте рядом с его жетоном роли пометку «Пьян».", "bold": false }
+      { "text": ", поставьте рядом с его жетоном роли пометку ." },
+      { "text": "«Пьян»", "color": "magenta" },
+      { "text": "." }
     ],
     "otherNight": 4.0,
     "otherNightReminder": [
-      { "text": "Ранее опьяневший игрок ", "bold": false },
+      { "text": "Ранее опьяневший игрок " },
       { "text": "трезвеет", "bold": true },
-      { "text": ". Пробудите ", "bold": false },
+      { "text": ". Пробудите " },
+      { "text": "Моряка", "color": "blue" },
+      { "text": ". Он указывает на любого игрока. Усыпите " },
+      { "text": "Моряка", "color": "blue" },
+      { "text": ". Либо " },
       { "text": "Моряк", "color": "blue" },
-      { "text": ". Он указывает на любого игрока. Усыпите ", "bold": false },
-      { "text": "Моряк", "color": "blue" },
-      { "text": ". Либо ", "bold": false },
-      { "text": "Моряк", "color": "blue" },
-      { "text": ", либо выбранный игрок становится ", "bold": false },
+      { "text": ", либо выбранный игрок становится " },
       { "text": "пьяным", "bold": true },
-      { "text": ", поставьте рядом с его жетоном роли пометку «Пьян».", "bold": false }
+      { "text": ", поставьте рядом с его жетоном роли пометку ." },
+      { "text": "«Пьян»", "color": "magenta" },
+      { "text": "." }
     ],
     "reminders": ["Пьян"],
     "setup": false,
     "ability": [
-      { "text": "Каждую ночь", "bold": true },
-      { "text": ": выберите ", "bold": false },
+      { "text": "Каждую ночь:", "bold": true },
+      { "text": " выберите " },
       { "text": "живого", "bold": true },
-      { "text": " игрока. Один среди вас и этого игрока становится ", "bold": false },
+      { "text": " игрока. Один из вас становится " },
       { "text": "пьяным", "bold": true },
-      { "text": " до заката. Вы не можете умереть.", "bold": false }
+      { "text": " до заката. Вы не можете умереть." }
     ],
     "image": "https://botc.1nv.is/wiki/images/c/ce/Sailor.png"
 }

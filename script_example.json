@@ -1,5 +1,10 @@
 [
   {
+    "id": "_meta",
+    "name": "Trouble Brewing",
+    "author": "The Pandemonium Institute"
+  },
+  {
     "id": "ru_RU_washerwoman",
     "name": "Прачка",
     "team": "townsfolk",

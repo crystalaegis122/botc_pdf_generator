@@ -6,12 +6,14 @@
     "firstNightReminder": "",
     "otherNight": 49.0,
     "otherNightReminder": [
-      { "text": "Механик может умереть.", "bold": false }
+      { "text": "Механик может умереть." }
     ],
     "reminders": ["Умирает"],
     "setup": false,
     "ability": [
-      { "text": "Вы можете умереть в любой момент.", "bold": false }
+      { "text": "Вы " },
+      { "text": "можете", "bold": true },
+      { "text": " умереть в любой момент." }
     ],
     "image": "https://botc.1nv.is/wiki/images/e/ec/Tinker.png"
 }

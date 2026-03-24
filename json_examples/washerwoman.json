@@ -4,23 +4,29 @@
     "team": "townsfolk",
     "firstNight": 33.0,
     "firstNightReminder": [
-      { "text": "Пробудите ", "bold": false },
+      { "text": "Пробудите " },
       { "text": "Прачку", "color": "blue" },
-      { "text": " и укажите на игроков с пометками «Горожанин» и «Ложный след». Покажите ", "bold": false },
+      { "text": " и укажите на игроков с пометками " },
+      { "text": "«Горожанин»", "color": "magenta" },
+      { "text": " и " },
+      { "text": "«Ложный след»", "color": "magenta" },
+      { "text": ". Покажите " },
       { "text": "Прачке", "color": "blue" },
-      { "text": " жетон роли с пометкой «Горожанин». Усыпите ", "bold": false },
+      { "text": " жетон роли с пометкой " },
+      { "text": "«Горожанин»", "color": "magenta" },
+      { "text": ". Усыпите " },
       { "text": "Прачку", "color": "blue" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "otherNight": 0.0,
     "otherNightReminder": "",
     "reminders": ["Горожанин", "Ложный след"],
     "setup": false,
     "ability": [
-      { "text": "Вступление", "bold": true },
-      { "text": ": вы узнаете, что один из двух игроков является определенным ", "bold": false },
+      { "text": "Вступление:", "bold": true },
+      { "text": " вы узнаете, что один из двух игроков является определенным " },
       { "text": "Горожанином", "color": "blue" },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/4/45/Washerwoman.png"
 }

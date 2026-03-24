@@ -6,18 +6,20 @@
     "firstNightReminder": "",
     "otherNight": 41.0,
     "otherNightReminder": [
-      { "text": "Если ", "bold": false },
+      { "text": "Если " },
       { "text": "Душечка", "color": "blue" },
-      { "text": " умирает, вы выбираете одного игрока, который станет ", "bold": false },
+      { "text": " умирает, вы выбираете одного игрока, который станет " },
       { "text": "пьяным", "bold": true },
-      { "text": ". Поставьте его жетону роли пометку «Пьян».", "bold": false }
+      { "text": ". Поставьте его жетону роли пометку " },
+      { "text": "«Пьян»", "color": "magenta" },
+      { "text": "." }
     ],
     "reminders": ["Пьян"],
     "setup": false,
     "ability": [
-      { "text": "Когда вы умираете, один из игроков впредь становится ", "bold": false },
+      { "text": "Когда вы умираете, один из игроков впредь становится " },
       { "text": "пьяным", "bold": true },
-      { "text": ".", "bold": false }
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/c/c2/Sweetheart.png"
 }

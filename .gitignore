@@ -8,7 +8,6 @@ env/
 .env
 
 # PyCharm
-.idea/
 *.iml
 
 # Переменные окружения

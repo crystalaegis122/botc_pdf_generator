@@ -9,11 +9,13 @@
     "reminders": [],
     "setup": false,
     "ability": [
-      { "text": "Если вы ", "bold": false },
+      { "text": "Если вы " },
       { "text": "внушаете", "bold": true },
-      { "text": ", что являетесь ", "bold": false },
+      { "text": ", что являетесь " },
       { "text": "Изгоем", "color": "blue" },
-      { "text": ", вы можете быть казнены.", "bold": false }
+      { "text": ", вы можете быть " },
+      { "text": "казнены", "bold": true },
+      { "text": "." }
     ],
     "image": "https://botc.1nv.is/wiki/images/5/58/Mutant.png"
 }
