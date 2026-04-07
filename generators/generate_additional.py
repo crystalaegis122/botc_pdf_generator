@@ -15,6 +15,8 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+NO_SIDE_COLUMNS = True # Установить True, чтобы столбцы с упрощённым порядком ночей не отображались.
+
 FILE_TITLE = "placeholder"  # Запасной заголовок, используется если в JSON нет _meta с name
 FILE_TITLE_PT = 36  # Размер шрифта заголовка внизу страницы
 FILE_TITLE_FONT_PATH = BASE_DIR / "fonts" / "adanascript.ttf"  # Путь к шрифту для заголовка
@@ -405,8 +407,14 @@ margin = MARGIN_MM * mm
 bottom_margin = BOTTOM_MARGIN_MM * mm
 
 side_image_pt = IMAGE_MM * mm * SIDE_IMAGE_SCALE
-left_col_width = side_image_pt + 2 * mm
-right_col_width = side_image_pt + 2 * mm
+
+if NO_SIDE_COLUMNS:
+    left_col_width = 0
+    right_col_width = 0
+else:
+    left_col_width = side_image_pt + 2 * mm
+    right_col_width = side_image_pt + 2 * mm
+
 center_col_width = PAGE_W_PT - 2 * margin - left_col_width - right_col_width
 
 left_col_x = margin
@@ -415,8 +423,9 @@ right_col_x = margin + left_col_width + center_col_width
 
 top_y = PAGE_H_PT - margin - TITLE_TOP_OFFSET_MM * mm
 
-draw_side_column(c, left_col_x, top_y, "I", left_roles, side_image_pt)
-draw_side_column(c, right_col_x, top_y, "II+", right_roles, side_image_pt)
+if not NO_SIDE_COLUMNS:
+    draw_side_column(c, left_col_x, top_y, "I", left_roles, side_image_pt)
+    draw_side_column(c, right_col_x, top_y, "II+", right_roles, side_image_pt)
 
 y_cursor = top_y - FILE_TITLE_PT - TITLE_GAP_MM * mm
 
@@ -534,6 +543,9 @@ for role in fabled_roles:
     if y_cursor < bottom_margin:
         c.showPage()
         y_cursor = top_y - FILE_TITLE_PT - TITLE_GAP_MM * mm
+        if not NO_SIDE_COLUMNS:
+            draw_side_column(c, left_col_x, top_y, "I", left_roles, side_image_pt)
+            draw_side_column(c, right_col_x, top_y, "II+", right_roles, side_image_pt)
         y_cursor = draw_group_header(c, center_col_x, y_cursor, "Сказочники", "gold")
 
 if loric_roles:
@@ -544,6 +556,9 @@ if loric_roles:
         if y_cursor < bottom_margin:
             c.showPage()
             y_cursor = top_y - FILE_TITLE_PT - TITLE_GAP_MM * mm
+            if not NO_SIDE_COLUMNS:
+                draw_side_column(c, left_col_x, top_y, "I", left_roles, side_image_pt)
+                draw_side_column(c, right_col_x, top_y, "II+", right_roles, side_image_pt)
             y_cursor = draw_group_header(c, center_col_x, y_cursor, "Летописцы", "green")
 
 if traveller_roles:
@@ -554,6 +569,9 @@ if traveller_roles:
         if y_cursor < bottom_margin:
             c.showPage()
             y_cursor = top_y - FILE_TITLE_PT - TITLE_GAP_MM * mm
+            if not NO_SIDE_COLUMNS:
+                draw_side_column(c, left_col_x, top_y, "I", left_roles, side_image_pt)
+                draw_side_column(c, right_col_x, top_y, "II+", right_roles, side_image_pt)
             y_cursor = draw_group_header(c, center_col_x, y_cursor, "Рекомендуемые странники", "magenta")
 
 title_lines = FILE_TITLE.split(" ")

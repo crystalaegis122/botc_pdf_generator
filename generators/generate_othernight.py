@@ -90,6 +90,20 @@ def fetch_image(source: Any) -> Any:
             return None
     return None
 
+def crop_transparent(img: Image.Image, pad: int = 2) -> Image.Image:
+    if img.mode != "RGBA":
+        img = img.convert("RGBA")
+    alpha = img.split()[-1]
+    bbox = alpha.getbbox()
+    if bbox:
+        x0, y0, x1, y1 = bbox
+        x0 = max(0, x0 - pad)
+        y0 = max(0, y0 - pad)
+        x1 = min(img.width, x1 + pad)
+        y1 = min(img.height, y1 + pad)
+        return img.crop((x0, y0, x1, y1))
+    return img
+
 def string_width(text: str, fontname: str, fontsize: float) -> float:
     try:
         return pdfmetrics.stringWidth(text, fontname, fontsize)
@@ -215,7 +229,7 @@ def make_image_square(img: Image.Image, base_px: int) -> Optional[io.BytesIO]:
     if img is None:
         return None
     try:
-        pil = img.copy().convert("RGBA")
+        pil = crop_transparent(img.copy())
         w, h = pil.size
         size = base_px
         max_dim = max(w,h)

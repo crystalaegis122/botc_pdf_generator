@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 FILE_TITLE = "placeholder"  # Запасной заголовок, используется если в JSON нет _meta с name
 FILE_TITLE_PT = 12.25  # Размер шрифта заголовка
-TITLE_TOP_OFFSET_MM = 4.0  # Отступ заголовка от верхнего края страницы
+TITLE_TOP_OFFSET_MM = 3.0  # Отступ заголовка от верхнего края страницы
 
 JSON_PATH = BASE_DIR / "script.json"  # Путь к файлу с данными ролей
 FONT_FILE = BASE_DIR / "fonts" / "Dumbledor3Thin.ttf"  # Путь к основному шрифту
@@ -67,6 +67,19 @@ def md5_hex(s: str) -> str:
 def cache_filename(url: str) -> Path:
     return CACHE_DIR / (md5_hex(url) + ".png")
 
+def crop_transparent(img: Image.Image, pad: int = 2) -> Image.Image:
+    if img.mode != "RGBA":
+        img = img.convert("RGBA")
+    alpha = img.split()[-1]
+    bbox = alpha.getbbox()
+    if bbox:
+        x0, y0, x1, y1 = bbox
+        x0 = max(0, x0 - pad)
+        y0 = max(0, y0 - pad)
+        x1 = min(img.width, x1 + pad)
+        y1 = min(img.height, y1 + pad)
+        return img.crop((x0, y0, x1, y1))
+    return img
 
 def fetch_image(url: str) -> Any:
     if not url:
@@ -245,8 +258,15 @@ for gkey in GROUP_ORDER:
     x_cols = [margin, margin + col_width + gutter]
     y_tops = [y_cursor] * 2
 
+    n = len(group_roles)
+    left_count = (n + 1) // 2
     for idx, role in enumerate(group_roles):
-        col = idx % 2
+        if idx < left_count:
+            col = 0
+            row = idx
+        else:
+            col = 1
+            row = idx - left_count
         x = x_cols[col]
         y_top_role = y_tops[col]
 
@@ -254,14 +274,13 @@ for gkey in GROUP_ORDER:
         segments = segments_from_ability(role.get("ability", ""))
         tokens = tokens_from_segments(segments)
         ability_lines = wrap_tokens_to_lines(tokens, FONT_FAMILY, ABILITY_PT, col_width - image_pt - 2 * mm)
-        text_block_height = len(name_lines) * ROLE_PT * LINE_SPACING + len(
-            ability_lines) * ABILITY_PT * LINE_SPACING + 2
+        text_block_height = len(name_lines) * ROLE_PT * LINE_SPACING + len(ability_lines) * ABILITY_PT * LINE_SPACING + 2
         block_height = max(image_pt, text_block_height)
 
         img = role.get("image_obj")
         if img:
             try:
-                pil = img.copy().convert("RGBA")
+                pil = crop_transparent(img.copy())
                 w, h = pil.size
                 sup_factor = 3
                 target_px = (int(round(image_pt * sup_factor)), int(round(image_pt * sup_factor)))
@@ -301,7 +320,7 @@ for gkey in GROUP_ORDER:
                 x_cursor = text_x + string_width(nl, FONT_FAMILY, ROLE_PT)
                 for jinx_img in role["jinx_images"]:
                     try:
-                        pil = jinx_img.copy().convert("RGBA")
+                        pil = crop_transparent(jinx_img.copy())
                         w, h = pil.size
                         target_px = (int(round(jinx_image_pt_small * 3)), int(round(jinx_image_pt_small * 3)))
                         scale = min(target_px[0] / w, target_px[1] / h)
@@ -319,8 +338,7 @@ for gkey in GROUP_ORDER:
                         bg.save(bio, format="PNG")
                         bio.seek(0)
                         image_y = text_y + (ROLE_PT - jinx_image_pt_small) / 2
-                        c.drawImage(ImageReader(bio), x_cursor, image_y, width=jinx_image_pt_small,
-                                    height=jinx_image_pt_small, mask='auto')
+                        c.drawImage(ImageReader(bio), x_cursor, image_y, width=jinx_image_pt_small, height=jinx_image_pt_small, mask='auto')
                         x_cursor += jinx_image_pt_small
                     except:
                         pass

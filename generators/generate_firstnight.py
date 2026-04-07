@@ -1,4 +1,4 @@
-import os, io, json, hashlib, logging
+import io, json, hashlib, logging
 from pathlib import Path
 from typing import List, Tuple, Dict, Any, Optional
 import requests
@@ -60,6 +60,20 @@ def md5_hex(s: str) -> str:
 
 def cache_filename(url: str) -> Path:
     return CACHE_DIR / (md5_hex(url) + ".png")
+
+def crop_transparent(img: Image.Image, pad: int = 2) -> Image.Image:
+    if img.mode != "RGBA":
+        img = img.convert("RGBA")
+    alpha = img.split()[-1]
+    bbox = alpha.getbbox()
+    if bbox:
+        x0, y0, x1, y1 = bbox
+        x0 = max(0, x0 - pad)
+        y0 = max(0, y0 - pad)
+        x1 = min(img.width, x1 + pad)
+        y1 = min(img.height, y1 + pad)
+        return img.crop((x0, y0, x1, y1))
+    return img
 
 def fetch_image(source: Any) -> Any:
     if not source:
@@ -232,7 +246,7 @@ def make_image_square(img: Image.Image, base_px: int) -> Optional[io.BytesIO]:
     if img is None:
         return None
     try:
-        pil = img.copy().convert("RGBA")
+        pil = crop_transparent(img.copy())
         w, h = pil.size
         size = base_px
         max_dim = max(w, h)
